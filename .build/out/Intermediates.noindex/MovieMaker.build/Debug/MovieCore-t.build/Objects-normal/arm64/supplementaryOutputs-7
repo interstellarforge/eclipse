@@ -1,0 +1,23 @@
+{
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/ScriptMode.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/ScriptMode.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/ScriptMode.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/ScriptMode.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/ScriptMode.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/ScriptMode.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/SkillContent.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/SkillContent.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/SkillContent.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/SkillContent.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/SkillContent.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/SkillContent.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Skills.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Skills.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Skills.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Skills.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Skills.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Skills.swiftdeps"
+  }
+}

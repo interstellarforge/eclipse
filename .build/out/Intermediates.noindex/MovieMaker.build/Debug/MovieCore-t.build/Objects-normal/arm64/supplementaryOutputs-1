@@ -1,0 +1,30 @@
+{
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Agents.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Agents.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Agents.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Agents.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Agents.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Agents.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Analysis.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Analysis.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Analysis.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Analysis.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Analysis.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Analysis.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/AssetInfo.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AssetInfo.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AssetInfo.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AssetInfo.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AssetInfo.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AssetInfo.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/AudioTools.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AudioTools.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AudioTools.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AudioTools.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AudioTools.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/AudioTools.swiftdeps"
+  }
+}

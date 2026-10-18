@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/MovieCoreTests-primary.dia",
+    "emit-module-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/MovieCoreTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/MovieCoreTests-primary-emit-module.dia",
+    "pch" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/MovieCoreTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/MovieCoreTests-primary.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/DerivedSources/test_entry_point.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/test_entry_point.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/test_entry_point.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/test_entry_point.dia",
+    "index-unit-output-path" : "/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/test_entry_point.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/test_entry_point.swiftdeps",
+    "swiftmodule" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/test_entry_point~partial.swiftmodule"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Tests/MovieCoreTests/EditorTests.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/EditorTests.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/EditorTests.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/EditorTests.dia",
+    "index-unit-output-path" : "/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/EditorTests.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/EditorTests.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/EditorTests.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/EditorTests.swiftdeps",
+    "swiftmodule" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCoreTests-p.build/Objects-normal/arm64/EditorTests~partial.swiftmodule"
+  }
+}

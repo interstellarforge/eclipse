@@ -1,0 +1,4 @@
+module MovieCore {
+header "MovieCore-Swift.h"
+export *
+}

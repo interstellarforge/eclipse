@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kees/Documents/prive/repos/movie-maker/.build/out/Products/Release/MovieMaker'
+relocations:     []
+...

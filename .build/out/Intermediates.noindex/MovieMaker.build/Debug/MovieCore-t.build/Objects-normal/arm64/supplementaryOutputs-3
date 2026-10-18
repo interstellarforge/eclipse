@@ -1,0 +1,30 @@
+{
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/EditPlan.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EditPlan.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EditPlan.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EditPlan.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EditPlan.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EditPlan.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/EffectRenderer.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EffectRenderer.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EffectRenderer.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EffectRenderer.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EffectRenderer.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/EffectRenderer.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Export.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Export.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Export.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Export.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Export.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/Export.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/GeneratorRenderer.swift" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/GeneratorRenderer.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/GeneratorRenderer.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/GeneratorRenderer.dia",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/GeneratorRenderer.o",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Debug/MovieCore-t.build/Objects-normal/arm64/GeneratorRenderer.swiftdeps"
+  }
+}

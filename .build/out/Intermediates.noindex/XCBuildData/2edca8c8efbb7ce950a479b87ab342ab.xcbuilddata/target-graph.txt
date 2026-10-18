@@ -1,0 +1,13 @@
+Target dependency graph (5 targets)
+Target 'AllExcludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'MovieMaker-product' in project 'MovieMaker'
+➜ Explicit dependency on target 'NewChecks-product' in project 'MovieMaker'
+➜ Explicit dependency on target 'CoreChecks-product' in project 'MovieMaker'
+➜ Explicit dependency on target 'MovieCore' in project 'MovieMaker'
+Target 'CoreChecks-product' in project 'MovieMaker'
+➜ Explicit dependency on target 'MovieCore' in project 'MovieMaker'
+Target 'NewChecks-product' in project 'MovieMaker'
+➜ Explicit dependency on target 'MovieCore' in project 'MovieMaker'
+Target 'MovieMaker-product' in project 'MovieMaker'
+➜ Explicit dependency on target 'MovieCore' in project 'MovieMaker'
+Target 'MovieCore' in project 'MovieMaker' (no dependencies)

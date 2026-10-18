@@ -1,0 +1,12 @@
+{
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Agents.swift" : {
+    "abi-baseline-json" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore.abi.json",
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary.dia",
+    "objc-header" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-Swift.h",
+    "swiftdoc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore.swiftdoc",
+    "swiftmodule" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore.swiftmodule",
+    "swiftsourceinfo" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore.swiftsourceinfo"
+  }
+}
