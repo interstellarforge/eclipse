@@ -542,7 +542,7 @@ func makeTools(editorProvider: @escaping @MainActor () -> Editor, host: MCPHost)
             return text("sound cleaned")
         },
         Tool(name: "auto_captions",
-             description: "Transcribes the speech of a clip and adds subtitles on a Captions track, timed to the clip. Needs the Lumacut app (speech recognition permission).",
+             description: "Transcribes the speech of a clip and adds subtitles on a Captions track, timed to the clip. Needs the Eclipse app (speech recognition permission).",
              properties: ["clip_id": prop("string", idDesc), "language": prop("string", "Locale like en-US or nl-NL")], required: ["clip_id"]) { a in
             let c = try clip(try a.id("clip_id"))
             guard let asset = editor.project.assets.first(where: { $0.id == c.assetID }), asset.hasAudio else { throw ToolError("the clip has no sound") }

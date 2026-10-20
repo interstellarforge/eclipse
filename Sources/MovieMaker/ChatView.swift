@@ -223,17 +223,16 @@ struct OptionRow: View {
                 Text(option.label).font(.system(size: 12.5)).foregroundStyle(Theme.text).frame(maxWidth: .infinity, alignment: .leading).contentShape(Rectangle())
             }.buttonStyle(.plain)
             if !option.info.isEmpty {
-                Image(systemName: "info.circle").font(.system(size: 13)).foregroundStyle(tip.on ? Theme.accent : Theme.dim)
-                    .onHover { tip.on = $0 }
-                    .popover(isPresented: Binding(get: { tip.on || hover.on }, set: { if !$0 { tip.on = false } }), arrowEdge: .leading) {
+                Button { tip.on.toggle() } label: { Image(systemName: "info.circle").font(.system(size: 13)).foregroundStyle(tip.on ? Theme.accent : Theme.dim).frame(width: 22, height: 22).contentShape(Rectangle()) }
+                    .buttonStyle(.plain).help(option.info)   // tooltip on hover over the icon only; click for a larger note
+                    .popover(isPresented: $tip.on, arrowEdge: .leading) {
                         Text(option.info).font(.system(size: 12)).fixedSize(horizontal: false, vertical: true).padding(12).frame(width: 260, alignment: .leading)
                     }
             }
         }
         .padding(.horizontal, 12).padding(.vertical, 9)
         .background(Theme.hover, in: RoundedRectangle(cornerRadius: 9)).overlay(RoundedRectangle(cornerRadius: 9).stroke(Theme.accent.opacity(hover.on ? 0.8 : 0.35)))
-        .onHover { hover.on = $0 && !option.info.isEmpty }
-        .help(option.info)
+        .onHover { hover.on = $0 }
     }
 }
 
@@ -246,7 +245,12 @@ struct QuestionCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 9) {
-            HStack(spacing: 6) { Image(systemName: "questionmark.bubble.fill").foregroundStyle(Theme.accent); Text("Claude asks").font(.system(size: 11, weight: .semibold)).foregroundStyle(Theme.dim) }
+            HStack(spacing: 6) {
+                Image(systemName: "questionmark.bubble.fill").foregroundStyle(Theme.accent); Text("Claude asks").font(.system(size: 11, weight: .semibold)).foregroundStyle(Theme.dim)
+                Spacer()
+                Button { chat.stop(); model.answerQuestion("(the user dismissed the question and stopped the task)") } label: { Image(systemName: "xmark.circle.fill").foregroundStyle(Theme.dim) }
+                    .buttonStyle(.plain).help("Dismiss this question and stop")
+            }
             Text(question.question).font(.system(size: 13.5, weight: .semibold)).foregroundStyle(Theme.text).fixedSize(horizontal: false, vertical: true)
             ForEach(question.options, id: \.label) { option in OptionRow(option: option) { chat.answer(option.label, using: model) } }
             if question.allowText {

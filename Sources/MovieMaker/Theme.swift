@@ -3,15 +3,15 @@ import SwiftUI
 
 /// The look of the app: charcoal panels, one purple accent, rounded corners.
 enum Theme {
-    static let background = Color(red: 0.063, green: 0.067, blue: 0.082)       // window
-    static let panel = Color(red: 0.086, green: 0.090, blue: 0.110)            // side panels
-    static let raised = Color(red: 0.118, green: 0.122, blue: 0.149)           // cards, fields
-    static let hover = Color(red: 0.157, green: 0.161, blue: 0.196)
+    static let background = Color(red: 0.031, green: 0.039, blue: 0.094)       // window
+    static let panel = Color(red: 0.051, green: 0.063, blue: 0.141)            // side panels
+    static let raised = Color(red: 0.078, green: 0.098, blue: 0.204)           // cards, fields
+    static let hover = Color(red: 0.114, green: 0.137, blue: 0.278)
     static let stroke = Color.white.opacity(0.07)
     static let text = Color(red: 0.93, green: 0.93, blue: 0.95)
     static let dim = Color(red: 0.62, green: 0.63, blue: 0.69)
-    static let accent = Color(red: 0.545, green: 0.361, blue: 0.965)
-    static let accentSoft = Color(red: 0.545, green: 0.361, blue: 0.965).opacity(0.18)
+    static let accent = Color(red: 0.482, green: 0.239, blue: 1.0)
+    static let accentSoft = Color(red: 0.482, green: 0.239, blue: 1.0).opacity(0.18)
     static let video = Color(red: 0.31, green: 0.38, blue: 0.85)
     static let audio = Color(red: 0.16, green: 0.62, blue: 0.45)
     static let music = Color(red: 0.55, green: 0.30, blue: 0.85)

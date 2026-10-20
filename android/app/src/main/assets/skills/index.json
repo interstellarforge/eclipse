@@ -1,0 +1,74 @@
+[
+ {
+  "name": "director-brief",
+  "summary": "START HERE for any creative request: intake, routing, workflow, principles and the working rules of this editor."
+ },
+ {
+  "name": "perceiving-footage",
+  "summary": "How to actually look at clips: inspect, contact sheets, transcript, choosing moments."
+ },
+ {
+  "name": "story-and-pacing",
+  "summary": "Structure, clip selection, shot length and pacing for short videos."
+ },
+ {
+  "name": "creative-thinking",
+  "summary": "How to find a fresh idea for a film instead of the usual one: list the defaults, move away from them, test concepts, filter. Read before choosing a direction."
+ },
+ {
+  "name": "creative-toolbox",
+  "summary": "The whole toolbox in one place (joins, effects, overlays, titles, looks, speed, templates) with when each ADDS something, a spice budget, and how to avoid making the same film twice."
+ },
+ {
+  "name": "shot-grammar",
+  "summary": "Continuity, shot sizes, jump cuts, reframing and speed for editing real footage."
+ },
+ {
+  "name": "transitions",
+  "summary": "When to use each of the 47 transitions and how long they should be."
+ },
+ {
+  "name": "rhythm-and-music",
+  "summary": "Choosing music, cutting to the beat, levels and endings."
+ },
+ {
+  "name": "sound-design",
+  "summary": "Layers, levels, sound effects with picture, and sound bridges."
+ },
+ {
+  "name": "titles-and-text",
+  "summary": "Typography, placement, timing and style for titles, lower thirds and captions."
+ },
+ {
+  "name": "color-and-look",
+  "summary": "Matching clips and choosing a look with set_look."
+ },
+ {
+  "name": "platform-formats",
+  "summary": "Aspect ratios, lengths and hooks per destination; set_format."
+ },
+ {
+  "name": "edit-decision-list",
+  "summary": "The build_edit format: how to write all cuts, joins, sound, effects, titles and music in one go."
+ },
+ {
+  "name": "highlight-reel",
+  "summary": "Recipe for a highlight reel / recap / best-of: how to pick moments and build the arc."
+ },
+ {
+  "name": "scene-effects",
+  "summary": "Which scene effect to use when, strengths, and combinations (add_effect / effects in build_edit)."
+ },
+ {
+  "name": "stills-and-motion",
+  "summary": "Photos, stickers, keyframe animation, crop and picture-in-picture: bringing still material to life."
+ },
+ {
+  "name": "guided-edit",
+  "summary": "Interview mode: ask the user step by step (analyse clips? theme? length? music? pace?) before building."
+ },
+ {
+  "name": "review-checklist",
+  "summary": "Quality gate to run before saying a cut is finished."
+ }
+]

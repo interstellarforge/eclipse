@@ -1135,7 +1135,7 @@ do {
         print("live: downloaded \(shortest.title) (\(shortest.durationMs) ms) -> asset \(loaded.duration) ms, audio \(loaded.hasAudio)")
     }
 
-    // Optional live test against a running Lumacut and the real `claude` (uses your Claude quota):
+    // Optional live test against a running Eclipse and the real `claude` (uses your Claude quota):
     //   CLAUDE_E2E="your prompt" swift run CoreChecks
     if let prompt = ProcessInfo.processInfo.environment["CLAUDE_E2E"] {
         let token = try ClaudeRunner_token()

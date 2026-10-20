@@ -94,12 +94,12 @@ public enum Transcriber {
     /// Phrases (ms in the file) split at pauses.
     public static func phrases(url: URL, language: String? = nil) async throws -> [Phrase] {
         guard Bundle.main.object(forInfoDictionaryKey: "NSSpeechRecognitionUsageDescription") != nil else {
-            throw EditError.invalid("Transcription needs the Lumacut app (it asks macOS for speech recognition permission).")
+            throw EditError.invalid("Transcription needs the Eclipse app (it asks macOS for speech recognition permission).")
         }
         let status = await withCheckedContinuation { (c: CheckedContinuation<SFSpeechRecognizerAuthorizationStatus, Never>) in
             SFSpeechRecognizer.requestAuthorization { c.resume(returning: $0) }
         }
-        guard status == .authorized else { throw EditError.invalid("Speech recognition is not allowed. Enable it for Lumacut in System Settings > Privacy & Security > Speech Recognition.") }
+        guard status == .authorized else { throw EditError.invalid("Speech recognition is not allowed. Enable it for Eclipse in System Settings > Privacy & Security > Speech Recognition.") }
         let locale = language.map { Locale(identifier: $0) } ?? Locale.current
         guard let recognizer = SFSpeechRecognizer(locale: locale), recognizer.isAvailable else {
             throw EditError.invalid("Speech recognition is not available for \(locale.identifier).")

@@ -24,7 +24,7 @@ struct MovieMakerApp: App {
         }
     }
     var body: some Scene {
-        WindowGroup("Lumacut") {
+        WindowGroup("Eclipse") {
             ContentView().environmentObject(model).environmentObject(chat).environmentObject(search)
                 .navigationTitle(model.title)
                 .onOpenURL { model.load($0) }

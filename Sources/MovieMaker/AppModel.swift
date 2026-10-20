@@ -872,7 +872,7 @@ final class AppModel: ObservableObject {
     private func startVoiceOver() {
         Task {
             guard await AVCaptureDevice.requestAccess(for: .audio) else {
-                errorMessage = "Microphone access is off. Turn it on for Lumacut in System Settings > Privacy & Security > Microphone."
+                errorMessage = "Microphone access is off. Turn it on for Eclipse in System Settings > Privacy & Security > Microphone."
                 return
             }
             do {

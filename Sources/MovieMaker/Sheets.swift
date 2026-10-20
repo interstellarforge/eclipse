@@ -85,7 +85,7 @@ struct RenameSheet: View {
         VStack(alignment: .leading, spacing: 12) {
             Text("Rename").font(.title3.bold())
             TextField("Name", text: $text.value).textFieldStyle(.roundedBorder).onSubmit { model.rename(asset, to: text.value) }
-            Text("Only the name shown in Lumacut changes, not the file on disk.").font(.caption).foregroundStyle(.secondary)
+            Text("Only the name shown in Eclipse changes, not the file on disk.").font(.caption).foregroundStyle(.secondary)
             HStack { Spacer(); Button("Cancel") { model.renameTarget = nil }; Button("Rename") { model.rename(asset, to: text.value) }.keyboardShortcut(.defaultAction) }
         }.padding(20).frame(width: 380).onAppear { text.value = asset.label }
     }
@@ -230,6 +230,12 @@ final class RangePlayer: ObservableObject {
 
     func load(_ url: URL) { player.replaceCurrentItem(with: AVPlayerItem(url: url)); currentMs = 0; playing = false }
     func seek(_ ms: Ms) { player.seek(to: CMTime(value: ms, timescale: 1000), toleranceBefore: .zero, toleranceAfter: .zero); currentMs = ms }
+    /// While dragging the slider: loose tolerance so the picture follows the thumb instead of waiting for the release.
+    func scrub(_ ms: Ms) {
+        player.pause()
+        let t = CMTime(value: ms, timescale: 1000), tol = CMTime(value: 300, timescale: 1000)
+        player.seek(to: t, toleranceBefore: tol, toleranceAfter: tol); currentMs = ms
+    }
     func toggle() { player.rate == 0 ? player.play() : player.pause() }
 }
 
@@ -249,12 +255,14 @@ struct SelectionSheet: View {
         @Published var included = Set<UUID>()
         @Published var ranges: [UUID: [Range<Ms>]] = [:]
         @Published var start: Ms?
+        @Published var message = ""
     }
     @StateObject private var picks = Picks()
     private var current: UUID? { get { picks.current } nonmutating set { picks.current = newValue } }
     private var included: Set<UUID> { get { picks.included } nonmutating set { picks.included = newValue } }
     private var ranges: [UUID: [Range<Ms>]] { get { picks.ranges } nonmutating set { picks.ranges = newValue } }
     private var start: Ms? { get { picks.start } nonmutating set { picks.start = newValue } }
+    private var markedParts: Int { ranges.values.map(\.count).reduce(0, +) }
 
     private var assets: [Asset] {
         model.project.assets.filter { $0.hasVideo && !$0.isStill && (request.assetIDs.isEmpty || request.assetIDs.contains($0.id)) }
@@ -290,7 +298,7 @@ struct SelectionSheet: View {
                             Button { player.toggle() } label: { Image(systemName: player.playing ? "pause.fill" : "play.fill") }.keyboardShortcut(.space, modifiers: [])
                             Button { player.seek(max(0, player.currentMs - Ms(model.frameMs.rounded()))) } label: { Image(systemName: "backward.frame.fill") }
                             Button { player.seek(min(asset.duration, player.currentMs + Ms(model.frameMs.rounded()))) } label: { Image(systemName: "forward.frame.fill") }
-                            Slider(value: Binding(get: { Double(player.currentMs) }, set: { player.seek(Ms($0)) }), in: 0...Double(max(1, asset.duration)))
+                            Slider(value: Binding(get: { Double(player.currentMs) }, set: { player.scrub(Ms($0)) }), in: 0...Double(max(1, asset.duration)), onEditingChanged: { editing in if !editing { player.seek(player.currentMs) } })
                             Text("\(formatTime(player.currentMs)) / \(formatTime(asset.duration))").font(.system(size: 11.5, design: .monospaced)).foregroundStyle(Theme.dim)
                         }
                         HStack(spacing: 8) {
@@ -318,21 +326,23 @@ struct SelectionSheet: View {
             }
             Divider()
             HStack {
-                Text("Tick the files you want used. Files without ticked parts are left out.").font(.system(size: 11.5)).foregroundStyle(Theme.dim)
+                Text(picks.message.isEmpty ? (markedParts == 0 ? "Play a file, press Start here and End here to mark a part. Files with no marked part are left out unless you tick them (whole file)." : "\(markedParts) part\(markedParts == 1 ? "" : "s") marked in \(included.count) file\(included.count == 1 ? "" : "s").") : picks.message)
+                    .font(.system(size: 11.5)).foregroundStyle(picks.message.isEmpty ? Theme.dim : .orange).lineLimit(2)
                 Spacer()
                 Button("Cancel") { model.finishSelection(nil) }.keyboardShortcut(.cancelAction)
                 Button("Done") { model.finishSelection(summary()) }.keyboardShortcut(.defaultAction).buttonStyle(.borderedProminent).disabled(included.isEmpty)
             }.padding(14)
         }
         .frame(minWidth: 860, minHeight: 560)
-        .onAppear { current = assets.first?.id; included = Set(assets.map(\.id)) }
+        .onAppear { current = assets.first?.id }
         .onChange(of: current) { _, id in start = nil; if let a = assets.first(where: { $0.id == id }) { player.load(a.url) } }
     }
 
     private func addRange(to end: Ms, of asset: Asset) {
         guard let s = start else { return }
         let lo = min(s, end), hi = max(s, end)
-        if hi - lo >= 200 { ranges[asset.id, default: []].append(lo..<hi); included.insert(asset.id) }
+        if hi - lo >= 200 { ranges[asset.id, default: []].append(lo..<hi); included.insert(asset.id); picks.message = "" }
+        else { picks.message = "That part is too short: move the playhead further before pressing End here." }
         start = nil
     }
 
@@ -388,8 +398,8 @@ struct ScriptSheet: View {
                                 if beat.assetID != nil {
                                     Label("\(name(beat.assetID))\(beat.startMs.map { s in beat.endMs.map { e in " \(formatTime(Ms(s)))–\(formatTime(Ms(e)))" } ?? "" } ?? "")", systemImage: "film").font(.system(size: 11)).foregroundStyle(Theme.dim).lineLimit(1)
                                 }
-                                HStack(spacing: 3) { Text("join").font(.system(size: 11)).foregroundStyle(Theme.dim); TextField("cut", text: $edit.draft.beats[i].join).textFieldStyle(.roundedBorder).frame(width: 90) }
-                                HStack(spacing: 3) { Text("sound").font(.system(size: 11)).foregroundStyle(Theme.dim); TextField("keep", text: $edit.draft.beats[i].sound).textFieldStyle(.roundedBorder).frame(width: 90) }
+                                ComboField(label: "join", placeholder: "cut", text: $edit.draft.beats[i].join, presets: ["cut"] + TransitionType.allCases.map(\.rawValue)).frame(minWidth: 130)
+                                ComboField(label: "sound", placeholder: "keep", text: $edit.draft.beats[i].sound, presets: ["keep", "mute", "keep 0.6, music lower", "music only", "keep, fade out", "keep, fade in"]).frame(minWidth: 130)
                                 HStack(spacing: 3) { Text("text").font(.system(size: 11)).foregroundStyle(Theme.dim); TextField("none", text: $edit.draft.beats[i].text).textFieldStyle(.roundedBorder) }
                             }
                         }.padding(10).card(radius: 10)
@@ -411,5 +421,26 @@ struct ScriptSheet: View {
         }
         .frame(minWidth: 780, minHeight: 560)
         .onAppear { if !edit.loaded, let d = model.pendingScript { edit.draft = d; edit.loaded = true } }
+    }
+}
+
+/// A text field with a dropdown of ready-made choices: pick one or type your own.
+struct ComboField: View {
+    let label: String
+    let placeholder: String
+    @Binding var text: String
+    let presets: [String]
+
+    var body: some View {
+        HStack(spacing: 4) {
+            Text(label).font(.system(size: 11)).foregroundStyle(Theme.dim)
+            HStack(spacing: 0) {
+                TextField(placeholder, text: $text).textFieldStyle(.plain).font(.system(size: 12)).padding(.leading, 7).lineLimit(1)
+                Menu {
+                    ForEach(presets, id: \.self) { p in Button(p) { text = p } }
+                } label: { Image(systemName: "chevron.up.chevron.down").font(.system(size: 9, weight: .semibold)).foregroundStyle(Theme.dim).frame(width: 22, height: 22) }
+                    .menuStyle(.borderlessButton).menuIndicator(.hidden).fixedSize()
+            }.frame(height: 24).background(Theme.raised, in: RoundedRectangle(cornerRadius: 6)).overlay(RoundedRectangle(cornerRadius: 6).stroke(Theme.stroke))
+        }
     }
 }

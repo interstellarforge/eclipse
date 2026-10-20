@@ -73,6 +73,8 @@ final class ChatModel: ObservableObject {
     /// Messages typed while Claude is busy: sent in order when it finishes, or at once with "Send now".
     @Published var queue: [String] = []
     private var nextUp: String?
+    /// True when the current Claude session began while offline mode was on, so it has never seen any footage.
+    private var sessionStartedOffline = false
     private var currentID = UUID()
     private var created = Date()
     private var sessionID: String?
@@ -152,6 +154,12 @@ final class ChatModel: ObservableObject {
             messages.append(ChatMessage(role: .notice, text: "Offline mode needs Claude: \(a.kind.title) cannot be limited to the editor's tools, so your files could be reached. Pick a Claude agent or switch offline mode off.", failed: true))
             return
         }
+        // A session that already saw footage keeps it in its memory: when offline mode is on, start a clean one.
+        if model.offlineMode, sessionID != nil, !sessionStartedOffline {
+            sessionID = nil
+            messages.append(ChatMessage(role: .notice, text: "Offline mode: started a fresh Claude session, so nothing it saw of your clips earlier is carried over. Claude now only knows what you tell it and the parts you mark."))
+        }
+        if sessionID == nil { sessionStartedOffline = model.offlineMode } else if !model.offlineMode { sessionStartedOffline = false }
         var request = text
         if ghostMode {
             ghostMode = false
@@ -196,7 +204,7 @@ final class ChatModel: ObservableObject {
     func newChat() {
         cancel?()
         persist()
-        messages = []; sessionID = nil; running = false
+        messages = []; sessionID = nil; sessionStartedOffline = false; running = false
         currentID = UUID(); created = Date()
     }
 
@@ -204,7 +212,7 @@ final class ChatModel: ObservableObject {
     func open(_ id: UUID) {
         guard !running, id != currentID, let chat = ChatStore.load(id) else { return }
         persist()
-        currentID = chat.id; created = chat.created; sessionID = chat.sessionID
+        currentID = chat.id; created = chat.created; sessionID = chat.sessionID; sessionStartedOffline = false
         messages = chat.messages.map { var m = $0; m.done = true; return m }   // anything cut off by a quit is finished now
     }
 

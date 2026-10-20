@@ -12,5 +12,7 @@ let package = Package(
         .executableTarget(name: "CoreChecks", dependencies: ["MovieCore"]),
         // Newer checks, in several small files so they build in seconds: `swift build --product NewChecks`.
         .executableTarget(name: "NewChecks", dependencies: ["MovieCore"]),
+        // Renders the sample footage and the demo clips/GIFs used in README.md: `swift run ReadmeMedia docs/media`.
+        .executableTarget(name: "ReadmeMedia", dependencies: ["MovieCore"]),
     ]
 )

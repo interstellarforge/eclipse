@@ -716,16 +716,29 @@ final class FilesState: ObservableObject {
     @Published var sort = FileSort.name
     @Published var ascending = true
     @Published var thumbs: [URL: NSImage] = [:]
-    @Published var counts: [URL: (items: Int, media: Int)] = [:]
+    @Published var counts: [URL: (items: Int, video: Int, image: Int, audio: Int)] = [:]
     private var requested = Set<URL>()
     private var counting = Set<URL>()
 
     /// How many files a folder holds (direct items and media files anywhere inside), counted once in the background.
+    /// The folder's count line, following the kind filter (All, Video, Photos, Audio).
+    func countText(_ folder: URL) -> String? {
+        guard let c = counts[folder] else { return nil }
+        func n(_ v: Int, _ one: String, _ many: String) -> String { "\(v) \(v == 1 ? one : many)" }
+        switch kind {
+        case "Video": return n(c.video, "video", "videos")
+        case "Photos": return n(c.image, "photo", "photos")
+        case "Audio": return n(c.audio, "audio file", "audio files")
+        default: return "\(n(c.items, "item", "items")) · \(n(c.video + c.image + c.audio, "media file", "media files"))"
+        }
+    }
+
     func count(_ folder: URL) {
         guard counts[folder] == nil, counting.insert(folder).inserted else { return }
         DispatchQueue.global(qos: .utility).async {
-            let items = Workspace.children(of: folder).count, media = Workspace.mediaFiles(in: folder, limit: 5_000).count
-            DispatchQueue.main.async { self.counts[folder] = (items, media) }
+            let items = Workspace.children(of: folder).count, media = Workspace.mediaFiles(in: folder, limit: 5_000).compactMap(Workspace.kind)
+            let c = (items, media.filter { $0 == "video" }.count, media.filter { $0 == "image" }.count, media.filter { $0 == "audio" }.count)
+            DispatchQueue.main.async { self.counts[folder] = c }
         }
     }
 
@@ -864,8 +877,8 @@ struct FileRow: View {
             thumb.frame(width: 30, height: 30)
             VStack(alignment: .leading, spacing: 1) {
                 Text(url.lastPathComponent).font(.system(size: 12.5, weight: row.isRoot ? .semibold : .regular)).lineLimit(1).foregroundStyle(kind == nil && !isFolder ? Theme.dim.opacity(0.6) : Theme.text)
-                if isFolder, let c = st.counts[url] {
-                    Text("\(c.items) item\(c.items == 1 ? "" : "s") · \(c.media) media file\(c.media == 1 ? "" : "s")").font(.system(size: 10.5)).foregroundStyle(Theme.dim)
+                if isFolder, let line = st.countText(url) {
+                    Text(line).font(.system(size: 10.5)).foregroundStyle(Theme.dim)
                 } else if !isFolder, let v = try? url.resourceValues(forKeys: [.fileSizeKey, .contentModificationDateKey]) {
                     Text("\(ByteCountFormatter.string(fromByteCount: Int64(v.fileSize ?? 0), countStyle: .file)) · \((v.contentModificationDate ?? .now).formatted(date: .abbreviated, time: .omitted))").font(.system(size: 10.5)).foregroundStyle(Theme.dim)
                 }

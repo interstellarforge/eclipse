@@ -123,6 +123,19 @@ func runAskGhostChecks(_ f: Fixtures) async throws {
     check(Privacy.blocked.isDisjoint(with: offlineTools) && offlineTools.contains("request_selection") && offlineTools.contains("build_edit"), "offline: analysis tools hidden, request_selection offered")
     check(try await call("get_frame", ["time_ms": 0]).contains("Offline mode"), "offline: get_frame refused")
     check(try await call("request_selection", ["reason": "Mark the best parts"]).contains("cannot show the range picker"), "request_selection reaches the host")
+    // Development aid: DUMP_TOOLS=file writes every tool definition (online and offline) so the Android app can share them.
+    func rawList(offline: Bool) async throws -> [[String: Any]] {
+        Privacy.offline = offline
+        var req = URLRequest(url: URL(string: "http://127.0.0.1:\(server.port)/mcp")!); req.httpMethod = "POST"
+        req.setValue("Bearer ask", forHTTPHeaderField: "Authorization"); req.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        req.httpBody = try JSONSerialization.data(withJSONObject: ["jsonrpc": "2.0", "id": 1, "method": "tools/list"])
+        let (data, _) = try await URLSession.shared.data(for: req)
+        return (((try JSONSerialization.jsonObject(with: data) as? [String: Any])?["result"] as? [String: Any])?["tools"] as? [[String: Any]]) ?? []
+    }
+    if let dump = ProcessInfo.processInfo.environment["DUMP_TOOLS"] {
+        let online = try await rawList(offline: false), offlineOnly = try await rawList(offline: true).filter { ($0["name"] as? String) == "request_selection" }
+        try JSONSerialization.data(withJSONObject: online + offlineOnly, options: [.prettyPrinted, .sortedKeys]).write(to: URL(fileURLWithPath: dump))
+    }
     Privacy.offline = false
     let onlineTools = try await listed()
     check(onlineTools.contains("watch_asset") && !onlineTools.contains("request_selection"), "online: normal tool set")

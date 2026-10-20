@@ -83,7 +83,7 @@ struct ContentView: View {
         } message: {
             Text("\(model.assetToRemove?.label ?? "This file") is used in the timeline. Its clips will be removed too (you can undo).")
         }
-        .alert("Lumacut", isPresented: Binding(get: { model.errorMessage != nil }, set: { if !$0 { model.errorMessage = nil } })) {
+        .alert("Eclipse", isPresented: Binding(get: { model.errorMessage != nil }, set: { if !$0 { model.errorMessage = nil } })) {
             Button("OK") { model.errorMessage = nil }
         } message: { Text(model.errorMessage ?? "") }
     }
@@ -97,7 +97,7 @@ struct TopBar: View {
     var body: some View {
         HStack(spacing: 10) {
             Spacer().frame(width: 72)   // room for the window buttons
-            LumacutLogo(size: 26)
+            EclipseLogo(size: 26)
             Menu {
                 Button("New") { model.newProject() }
                 Button("Open…") { model.open() }
@@ -265,18 +265,19 @@ struct WindowDragArea: NSViewRepresentable {
     func updateNSView(_ v: NSView, context: Context) {}
 }
 
-/// The Lumacut mark: a play triangle split by a diagonal cut on a violet tile (matches the app icon).
-struct LumacutLogo: View {
+/// The Eclipse mark: aperture ring around a dark eclipse disc on a deep-space tile (matches the app icon).
+struct EclipseLogo: View {
     let size: CGFloat
     var body: some View {
         let s = size
-        return ZStack {
-                RoundedRectangle(cornerRadius: s * 0.24).fill(LinearGradient(colors: [Color(red: 0.55, green: 0.36, blue: 0.97), Color(red: 0.13, green: 0.10, blue: 0.30)], startPoint: .topLeading, endPoint: .bottomTrailing))
-                Path { p in
-                    p.move(to: CGPoint(x: s * 0.38, y: s * 0.28)); p.addLine(to: CGPoint(x: s * 0.38, y: s * 0.72)); p.addLine(to: CGPoint(x: s * 0.74, y: s * 0.50)); p.closeSubpath()
-                }.fill(.white)
-                Path { p in p.move(to: CGPoint(x: s * 0.30, y: s * 0.78)); p.addLine(to: CGPoint(x: s * 0.70, y: s * 0.20)) }
-                    .stroke(Color(red: 0.30, green: 0.18, blue: 0.62), lineWidth: s * 0.05)
-        }.frame(width: s, height: s)
+        if let url = Bundle.main.url(forResource: "AppLogo", withExtension: "png"), let img = NSImage(contentsOf: url) {
+            return AnyView(Image(nsImage: img).resizable().interpolation(.high).frame(width: s, height: s))
+        }
+        return AnyView(ZStack {
+            RoundedRectangle(cornerRadius: s * 0.24).fill(LinearGradient(colors: [Color(red: 0.12, green: 0.16, blue: 0.44), Color(red: 0.02, green: 0.03, blue: 0.08)], startPoint: .topLeading, endPoint: .bottomTrailing))
+            Circle().fill(LinearGradient(colors: [Color(red: 0.48, green: 0.24, blue: 1), Color(red: 0.76, green: 0.36, blue: 1), Color(red: 1, green: 0.37, blue: 0.78), Color(red: 1, green: 0.61, blue: 0.41)], startPoint: .topLeading, endPoint: .bottomTrailing)).frame(width: s * 0.62, height: s * 0.62)
+            Circle().fill(Color(red: 0.02, green: 0.03, blue: 0.08)).frame(width: s * 0.32, height: s * 0.32)
+            Circle().trim(from: 0.0, to: 0.25).stroke(Color(red: 1, green: 0.61, blue: 0.41), lineWidth: max(1, s * 0.03)).frame(width: s * 0.32, height: s * 0.32).rotationEffect(.degrees(-20))
+        }.frame(width: s, height: s))
     }
 }

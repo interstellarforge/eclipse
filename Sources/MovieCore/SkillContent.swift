@@ -1,4 +1,4 @@
-// Our own director skills for editing real footage in Lumacut. Written for this editor's tools; the ideas
+// Our own director skills for editing real footage in Eclipse. Written for this editor's tools; the ideas
 // (emotion first, quality gates, perception before judgement) are general film-editing craft.
 
 enum SkillContent {

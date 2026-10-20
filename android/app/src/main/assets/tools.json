@@ -1,0 +1,1939 @@
+[
+  {
+    "description" : "Asks the user ONE question in the app and waits for the answer. Give 2-5 options (the first can be your recommendation); the user can also type their own answer. Every option should be {label, info}: label is a short answer, info is one or two plain sentences saying what that choice means and what you will do differently in the edit (the user sees it on hover). Use it for guided edits and for creative choices that matter. Do not ask what you can see or measure yourself.",
+    "inputSchema" : {
+      "properties" : {
+        "allow_text" : {
+          "description" : "Let the user type something else. Default true",
+          "type" : "boolean"
+        },
+        "options" : {
+          "description" : "2-5 answers: each {label, info} (a plain string also works). info = what it means and what you will do for the edit",
+          "items" : {
+
+          },
+          "type" : "array"
+        },
+        "question" : {
+          "description" : "The question, one short sentence",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "question"
+      ],
+      "type" : "object"
+    },
+    "name" : "ask_user"
+  },
+  {
+    "description" : "Lists a folder the user opened in the Files tab (names, kinds, sizes, and the length and resolution of videos and audio, read from file headers only: nothing is decoded or viewed). Without a path it lists the opened folders. Paths outside them are refused. Use it to tell the user what a folder contains and what looks usable, then import_media the files that are needed.",
+    "inputSchema" : {
+      "properties" : {
+        "depth" : {
+          "description" : "How many levels to show, 1...3 (default 1)",
+          "type" : "integer"
+        },
+        "path" : {
+          "description" : "Absolute path of an opened folder or a folder inside one. Omit to list the opened folders",
+          "type" : "string"
+        }
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "browse_folder"
+  },
+  {
+    "description" : "SCRIPT MODES: shows the user a drafted script in a window where they can edit, reorder and approve it, and waits. Returns 'APPROVED' with the final script (build exactly that with build_edit) or 'CHANGES REQUESTED' with their feedback (revise and propose again). One beat per planned cut or title card.",
+    "inputSchema" : {
+      "properties" : {
+        "beats" : {
+          "description" : "In playing order. Each: {title, detail, asset_id (optional), start_ms, end_ms (source range, optional), seconds (planned length), join (cut|crossfade|...), sound (keep|mute|music only...), text (title or caption, optional)}",
+          "items" : {
+            "type" : "object"
+          },
+          "type" : "array"
+        },
+        "logline" : {
+          "description" : "The idea in one or two sentences",
+          "type" : "string"
+        },
+        "notes" : {
+          "description" : "Music, look, alternative idea, anything else the user should know",
+          "type" : "string"
+        },
+        "title" : {
+          "description" : "Working title of the film",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "title",
+        "beats"
+      ],
+      "type" : "object"
+    },
+    "name" : "propose_script"
+  },
+  {
+    "description" : "Lists the director skills (editing craft guides). Start with director-brief for any creative request.",
+    "inputSchema" : {
+      "properties" : {
+
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "list_skills"
+  },
+  {
+    "description" : "Returns the full text of a director skill by name (see list_skills).",
+    "inputSchema" : {
+      "properties" : {
+        "name" : {
+          "description" : "Skill name, e.g. director-brief",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "name"
+      ],
+      "type" : "object"
+    },
+    "name" : "get_skill"
+  },
+  {
+    "description" : "Sets the movie canvas. Give a preset (16:9 = 1920x1080, 9:16 = 1080x1920, 1:1 = 1080x1080, 4:5 = 1080x1350) and\/or width, height, fps. Clips are fitted inside; use set_transform to fill the frame.",
+    "inputSchema" : {
+      "properties" : {
+        "fps" : {
+          "description" : "12...120, default keeps current",
+          "type" : "integer"
+        },
+        "height" : {
+          "description" : "Pixels, even",
+          "type" : "integer"
+        },
+        "preset" : {
+          "description" : "Aspect preset",
+          "enum" : [
+            "16:9",
+            "9:16",
+            "1:1",
+            "4:5"
+          ],
+          "type" : "string"
+        },
+        "width" : {
+          "description" : "Pixels, even",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "set_format"
+  },
+  {
+    "description" : "Returns the whole project: assets, tracks with clips (times in ms), transitions, duration and playhead. Track 1 in the list is the top layer.",
+    "inputSchema" : {
+      "properties" : {
+
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "get_project"
+  },
+  {
+    "description" : "Imports a video or audio file (MP4\/MOV\/M4A\/WAV\/MP3...) by absolute path into the media bin.",
+    "inputSchema" : {
+      "properties" : {
+        "path" : {
+          "description" : "Absolute file path",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "path"
+      ],
+      "type" : "object"
+    },
+    "name" : "import_media"
+  },
+  {
+    "description" : "Puts an imported asset on the timeline. Defaults: appended after the last clip on the first matching track; whole asset.",
+    "inputSchema" : {
+      "properties" : {
+        "asset_id" : {
+          "description" : "Asset id",
+          "type" : "string"
+        },
+        "duration_ms" : {
+          "description" : "Length of the clip",
+          "type" : "integer"
+        },
+        "source_in_ms" : {
+          "description" : "Offset into the asset to start from",
+          "type" : "integer"
+        },
+        "start_ms" : {
+          "description" : "Timeline position",
+          "type" : "integer"
+        },
+        "track_id" : {
+          "description" : "Specific track id",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "asset_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_clip"
+  },
+  {
+    "description" : "Adds a text title overlay (drawn on top of the video).",
+    "inputSchema" : {
+      "properties" : {
+        "duration_ms" : {
+          "description" : "Default 3000",
+          "type" : "integer"
+        },
+        "preset" : {
+          "description" : "Ready-made style, see the titles-and-text skill",
+          "enum" : [
+            "Center title",
+            "Lower third",
+            "Subtitle",
+            "Big impact",
+            "Neon glow",
+            "Minimal",
+            "Cinematic wide",
+            "Movie title",
+            "Quote",
+            "Corner tag",
+            "Boxed caption",
+            "Retro",
+            "Handwritten",
+            "End credits",
+            "Date stamp",
+            "Big number",
+            "Chapter card",
+            "Big statement",
+            "Whisper",
+            "Postcard",
+            "Typewriter",
+            "Gold award",
+            "Comic pop",
+            "News bar",
+            "Script sign-off",
+            "Rubber stamp",
+            "Bubblegum"
+          ],
+          "type" : "string"
+        },
+        "start_ms" : {
+          "description" : "Default: playhead",
+          "type" : "integer"
+        },
+        "text" : {
+          "description" : "Title text",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "text"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_title"
+  },
+  {
+    "description" : "Changes the text of a title clip.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "text" : {
+          "description" : "New text",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id",
+        "text"
+      ],
+      "type" : "object"
+    },
+    "name" : "set_title_text"
+  },
+  {
+    "description" : "Moves a clip to a new timeline position. Clips on a track may not overlap, except as a transition.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "start_ms" : {
+          "description" : "New start",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "clip_id",
+        "start_ms"
+      ],
+      "type" : "object"
+    },
+    "name" : "move_clip"
+  },
+  {
+    "description" : "Changes which part of the source a clip shows. Omitted values keep the current value.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "duration_ms" : {
+          "description" : "New length",
+          "type" : "integer"
+        },
+        "source_in_ms" : {
+          "description" : "Offset into the source",
+          "type" : "integer"
+        },
+        "start_ms" : {
+          "description" : "New timeline start",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "trim_clip"
+  },
+  {
+    "description" : "Splits a clip in two at a timeline position inside it.",
+    "inputSchema" : {
+      "properties" : {
+        "at_ms" : {
+          "description" : "Timeline position",
+          "type" : "integer"
+        },
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id",
+        "at_ms"
+      ],
+      "type" : "object"
+    },
+    "name" : "split_clip"
+  },
+  {
+    "description" : "Deletes a clip (and its transitions). With ripple, later clips on the track move earlier to close the gap.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "ripple" : {
+          "description" : "Close the gap. Default false",
+          "type" : "boolean"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "remove_clip"
+  },
+  {
+    "description" : "Copies a clip to the end of its track.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "duplicate_clip"
+  },
+  {
+    "description" : "Removes a file from the media library. Clips that use it are removed from the timeline too.",
+    "inputSchema" : {
+      "properties" : {
+        "asset_id" : {
+          "description" : "Asset id",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "asset_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "remove_asset"
+  },
+  {
+    "description" : "Plays a clip faster or slower (0.1...8, 1 = normal). The clip gets shorter or longer on the timeline and later clips on the track move with it.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "speed" : {
+          "description" : "Speed factor",
+          "type" : "number"
+        }
+      },
+      "required" : [
+        "clip_id",
+        "speed"
+      ],
+      "type" : "object"
+    },
+    "name" : "set_speed"
+  },
+  {
+    "description" : "Colour and geometry adjustments of a video clip. Omitted values keep the current value.",
+    "inputSchema" : {
+      "properties" : {
+        "blur" : {
+          "description" : "0...1",
+          "type" : "number"
+        },
+        "brightness" : {
+          "description" : "-1...1",
+          "type" : "number"
+        },
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "contrast" : {
+          "description" : "0...4, 1 = normal",
+          "type" : "number"
+        },
+        "crop_bottom" : {
+          "description" : "Bottom edge",
+          "type" : "number"
+        },
+        "crop_left" : {
+          "description" : "Trim this fraction (0...0.9) off the left edge",
+          "type" : "number"
+        },
+        "crop_right" : {
+          "description" : "Right edge",
+          "type" : "number"
+        },
+        "crop_top" : {
+          "description" : "Top edge",
+          "type" : "number"
+        },
+        "fade" : {
+          "description" : "0...1 lifted blacks (matte film)",
+          "type" : "number"
+        },
+        "flip_horizontal" : {
+          "description" : "Mirror left-right",
+          "type" : "boolean"
+        },
+        "flip_vertical" : {
+          "description" : "Mirror top-bottom",
+          "type" : "boolean"
+        },
+        "rotation" : {
+          "description" : "Degrees, counter-clockwise",
+          "type" : "number"
+        },
+        "saturation" : {
+          "description" : "0...3, 0 = black and white",
+          "type" : "number"
+        },
+        "sepia" : {
+          "description" : "0...1",
+          "type" : "number"
+        },
+        "sharpen" : {
+          "description" : "0...1",
+          "type" : "number"
+        },
+        "split_amount" : {
+          "description" : "0...1 strength of the two tints (teal and orange look: 0.5)",
+          "type" : "number"
+        },
+        "split_highlights" : {
+          "description" : "Tint for bright areas, hex e.g. FF9A3C",
+          "type" : "string"
+        },
+        "split_shadows" : {
+          "description" : "Tint for dark areas, hex e.g. 0B6E7F ('' removes)",
+          "type" : "string"
+        },
+        "vignette" : {
+          "description" : "0...1",
+          "type" : "number"
+        },
+        "warmth" : {
+          "description" : "-1 cool ... +1 warm",
+          "type" : "number"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "set_look"
+  },
+  {
+    "description" : "Track settings: mute audio, hide picture or titles, lock, duck (music under speech), name. Omitted values keep the current value.",
+    "inputSchema" : {
+      "properties" : {
+        "duck" : {
+          "description" : "Audio tracks: dip the volume while other sound (speech, clip sound) plays, e.g. for music",
+          "type" : "boolean"
+        },
+        "duck_level" : {
+          "description" : "How far a ducking track dips: 0.05...0.95 of its volume, default 0.3",
+          "type" : "number"
+        },
+        "hidden" : {
+          "description" : "Hide the track's picture\/titles",
+          "type" : "boolean"
+        },
+        "locked" : {
+          "description" : "Protect the track's clips from changes",
+          "type" : "boolean"
+        },
+        "muted" : {
+          "description" : "Silence the track",
+          "type" : "boolean"
+        },
+        "name" : {
+          "description" : "Track name",
+          "type" : "string"
+        },
+        "track_id" : {
+          "description" : "Track id",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "track_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "set_track"
+  },
+  {
+    "description" : "Adds a transition between a clip and the clip that starts exactly where it ends. The clips then overlap, so the timeline gets shorter by the duration.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "The outgoing (first) clip",
+          "type" : "string"
+        },
+        "duration_ms" : {
+          "description" : "Default 1000, capped at half the shorter clip",
+          "type" : "integer"
+        },
+        "type" : {
+          "description" : "Transition style",
+          "enum" : [
+            "crossfade",
+            "fadeBlack",
+            "fadeWhite",
+            "blurFade",
+            "pixelate",
+            "wipe",
+            "wipeLeft",
+            "wipeUp",
+            "wipeDown",
+            "slide",
+            "slideRight",
+            "slideUp",
+            "slideDown",
+            "cover",
+            "uncover",
+            "zoom",
+            "spin",
+            "irisOpen",
+            "irisClose",
+            "barnDoorH",
+            "barnDoorV",
+            "blinds",
+            "clock",
+            "whipLeft",
+            "whipRight",
+            "glitchCut",
+            "flashCut",
+            "zoomBlur",
+            "rotateZoom",
+            "pixelDissolve",
+            "diagonalWipe",
+            "diamond",
+            "splitSlide",
+            "barsSwipe",
+            "modTransition",
+            "ripple",
+            "pageCurl",
+            "swirl",
+            "filmBurn",
+            "shutter",
+            "cornerIris",
+            "tvStatic",
+            "squeeze",
+            "cubeSpin",
+            "blindsV",
+            "copyMachine",
+            "flare"
+          ],
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id",
+        "type"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_transition"
+  },
+  {
+    "description" : "Removes the transition that a clip is part of; later clips move back.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "remove_transition"
+  },
+  {
+    "description" : "Sets a clip's volume (1 = original, 0...2) and fades. Omitted values keep the current value.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "fade_in_ms" : {
+          "description" : "Fade-in length",
+          "type" : "integer"
+        },
+        "fade_out_ms" : {
+          "description" : "Fade-out length",
+          "type" : "integer"
+        },
+        "volume" : {
+          "description" : "0...2",
+          "type" : "number"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "set_audio"
+  },
+  {
+    "description" : "Adds a built-in sound effect: Whoosh, Impact, Riser, Ding, Sparkle, Pop, Click, Shutter, Heartbeat, Rain, Wind, Beep. ONLY when the user asks for sound effects; films and highlight reels do not get automatic effects.",
+    "inputSchema" : {
+      "properties" : {
+        "name" : {
+          "description" : "Effect name",
+          "type" : "string"
+        },
+        "start_ms" : {
+          "description" : "Default: playhead",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "name"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_sound_effect"
+  },
+  {
+    "description" : "QUICK MECHANICAL first pass on an EMPTY timeline: chains the busiest moments of the video assets at similar lengths with one kind of crossfade, optionally on the beat of music. It does not look at the pictures or judge them, so it is NOT directing. For a real film use the director skills and build_edit. Only use this when the user asks for a quick automatic cut.",
+    "inputSchema" : {
+      "properties" : {
+        "asset_ids" : {
+          "description" : "Video assets to use, in order. Default: all video assets",
+          "items" : {
+            "type" : "string"
+          },
+          "type" : "array"
+        },
+        "music_asset_id" : {
+          "description" : "Audio asset to cut on the beat of",
+          "type" : "string"
+        },
+        "target_seconds" : {
+          "description" : "Approximate length, default 30",
+          "type" : "number"
+        },
+        "title" : {
+          "description" : "Opening title text",
+          "type" : "string"
+        },
+        "transition_ms" : {
+          "description" : "Crossfade length, default 400",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "auto_movie"
+  },
+  {
+    "description" : "Saves the project (not the rendered video) to an absolute path ending in .moviemaker. Media files are referenced by path, not copied.",
+    "inputSchema" : {
+      "properties" : {
+        "path" : {
+          "description" : "Output file path",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "path"
+      ],
+      "type" : "object"
+    },
+    "name" : "save_project"
+  },
+  {
+    "description" : "Opacity, scale and position of a video clip. Omitted values keep the current value. Offsets are fractions of the frame (x + is right, y + is up).",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "offset_x" : {
+          "description" : "-1...1",
+          "type" : "number"
+        },
+        "offset_y" : {
+          "description" : "-1...1",
+          "type" : "number"
+        },
+        "opacity" : {
+          "description" : "0...1",
+          "type" : "number"
+        },
+        "scale" : {
+          "description" : "0.1...10, 1 = fit frame",
+          "type" : "number"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "set_transform"
+  },
+  {
+    "description" : "Styles a title clip. Omitted values keep the current value. Position is the text centre as a fraction of the frame (x from the left, y from the bottom).",
+    "inputSchema" : {
+      "properties" : {
+        "align" : {
+          "description" : "Text alignment; x is where the text starts, centres or ends",
+          "enum" : [
+            "left",
+            "center",
+            "right"
+          ],
+          "type" : "string"
+        },
+        "animation" : {
+          "description" : "How the title appears",
+          "enum" : [
+            "none",
+            "fade",
+            "slideUp",
+            "slideDown",
+            "slideLeft",
+            "pop",
+            "typewriter"
+          ],
+          "type" : "string"
+        },
+        "animation_ms" : {
+          "description" : "Length of the entrance, default 500",
+          "type" : "integer"
+        },
+        "bold" : {
+          "description" : "Bold",
+          "type" : "boolean"
+        },
+        "box" : {
+          "description" : "Dark box behind the text",
+          "type" : "boolean"
+        },
+        "clip_id" : {
+          "description" : "Title clip id",
+          "type" : "string"
+        },
+        "color" : {
+          "description" : "Hex like FFCC00",
+          "type" : "string"
+        },
+        "font" : {
+          "description" : "Font name, e.g. Helvetica Neue",
+          "type" : "string"
+        },
+        "glow" : {
+          "description" : "Glowing halo in the text colour",
+          "type" : "boolean"
+        },
+        "outline" : {
+          "description" : "Black outline",
+          "type" : "boolean"
+        },
+        "shadow" : {
+          "description" : "Drop shadow",
+          "type" : "boolean"
+        },
+        "size" : {
+          "description" : "Fraction of frame height, 0.02...0.3",
+          "type" : "number"
+        },
+        "tracking" : {
+          "description" : "Letter spacing as a fraction of the size, e.g. 0.3",
+          "type" : "number"
+        },
+        "uppercase" : {
+          "description" : "ALL CAPS",
+          "type" : "boolean"
+        },
+        "x" : {
+          "description" : "0...1",
+          "type" : "number"
+        },
+        "y" : {
+          "description" : "0...1",
+          "type" : "number"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "set_text_style"
+  },
+  {
+    "description" : "Changes the style and\/or overlap length of the transition a clip is part of. A longer overlap makes the timeline shorter.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Either clip of the transition",
+          "type" : "string"
+        },
+        "duration_ms" : {
+          "description" : "New overlap length",
+          "type" : "integer"
+        },
+        "type" : {
+          "description" : "New style",
+          "enum" : [
+            "crossfade",
+            "fadeBlack",
+            "fadeWhite",
+            "blurFade",
+            "pixelate",
+            "wipe",
+            "wipeLeft",
+            "wipeUp",
+            "wipeDown",
+            "slide",
+            "slideRight",
+            "slideUp",
+            "slideDown",
+            "cover",
+            "uncover",
+            "zoom",
+            "spin",
+            "irisOpen",
+            "irisClose",
+            "barnDoorH",
+            "barnDoorV",
+            "blinds",
+            "clock",
+            "whipLeft",
+            "whipRight",
+            "glitchCut",
+            "flashCut",
+            "zoomBlur",
+            "rotateZoom",
+            "pixelDissolve",
+            "diagonalWipe",
+            "diamond",
+            "splitSlide",
+            "barsSwipe",
+            "modTransition",
+            "ripple",
+            "pageCurl",
+            "swirl",
+            "filmBurn",
+            "shutter",
+            "cornerIris",
+            "tvStatic",
+            "squeeze",
+            "cubeSpin",
+            "blindsV",
+            "copyMachine",
+            "flare"
+          ],
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "update_transition"
+  },
+  {
+    "description" : "Moves the sound of a video clip onto its own audio clip (same range) and mutes the video clip.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Video clip id",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "detach_audio"
+  },
+  {
+    "description" : "Adds an empty track. A video track on top is a new layer above the others; the first track in the list is the top layer.",
+    "inputSchema" : {
+      "properties" : {
+        "kind" : {
+          "description" : "Track kind",
+          "enum" : [
+            "video",
+            "audio",
+            "text"
+          ],
+          "type" : "string"
+        },
+        "on_top" : {
+          "description" : "Put it first (top layer). Default false",
+          "type" : "boolean"
+        }
+      },
+      "required" : [
+        "kind"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_track"
+  },
+  {
+    "description" : "Deletes a track with all its clips.",
+    "inputSchema" : {
+      "properties" : {
+        "track_id" : {
+          "description" : "Track id from get_project",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "track_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "remove_track"
+  },
+  {
+    "description" : "Built-in free sounds: sound effects and music beds with their tempo and mood. Use add_sound_effect \/ add_music, or search_online_sounds for more.",
+    "inputSchema" : {
+      "properties" : {
+
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "list_sounds"
+  },
+  {
+    "description" : "Adds a built-in music bed (about 1 minute, tempo known) on an audio track at a position, trimmed to the movie length if you give duration_ms. See list_sounds.",
+    "inputSchema" : {
+      "properties" : {
+        "duration_ms" : {
+          "description" : "Default: the whole track, at most the movie length when the movie has clips",
+          "type" : "integer"
+        },
+        "name" : {
+          "description" : "Track name from list_sounds",
+          "type" : "string"
+        },
+        "start_ms" : {
+          "description" : "Default 0",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "name"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_music"
+  },
+  {
+    "description" : "Searches free sounds online (Openverse: CC0, public domain, and optionally CC BY with credit). Returns ids; use import_online_sound to download one.",
+    "inputSchema" : {
+      "properties" : {
+        "allow_attribution" : {
+          "description" : "Include CC BY sounds (you must credit them). Default true for music, false for effects",
+          "type" : "boolean"
+        },
+        "kind" : {
+          "description" : "music (20 s or longer), effects (up to 1 minute) or images (photos; import them, then use add_clip)",
+          "enum" : [
+            "music",
+            "effects",
+            "images"
+          ],
+          "type" : "string"
+        },
+        "query" : {
+          "description" : "What to look for, e.g. 'upbeat acoustic' or 'door slam'",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "query",
+        "kind"
+      ],
+      "type" : "object"
+    },
+    "name" : "search_online_sounds"
+  },
+  {
+    "description" : "Downloads a sound found with search_online_sounds into the media library and returns its asset_id (then use add_clip). Credits are recorded; see get_credits.",
+    "inputSchema" : {
+      "properties" : {
+        "id" : {
+          "description" : "Result id from search_online_sounds",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "id"
+      ],
+      "type" : "object"
+    },
+    "name" : "import_online_sound"
+  },
+  {
+    "description" : "Credit lines for all downloaded sounds that need attribution; paste them in the video description.",
+    "inputSchema" : {
+      "properties" : {
+
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "get_credits"
+  },
+  {
+    "description" : "Scene effects you can add to a video clip, with what each is for. Read the scene-effects skill for taste.",
+    "inputSchema" : {
+      "properties" : {
+
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "list_effects"
+  },
+  {
+    "description" : "Adds a scene effect to a video clip (an effect of the same type is replaced). amount is the strength 0...1.",
+    "inputSchema" : {
+      "properties" : {
+        "amount" : {
+          "description" : "0...1, default depends on the effect",
+          "type" : "number"
+        },
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "color" : {
+          "description" : "Hex colour to remove, for chromaKey (default 00FF00)",
+          "type" : "string"
+        },
+        "type" : {
+          "description" : "Effect type, see list_effects",
+          "enum" : [
+            "kenBurnsIn",
+            "kenBurnsOut",
+            "panLeft",
+            "panRight",
+            "shake",
+            "pulse",
+            "glow",
+            "flash",
+            "lightLeak",
+            "cinemaBars",
+            "grain",
+            "vhs",
+            "chromatic",
+            "glitch",
+            "blurIn",
+            "blurOut",
+            "posterize",
+            "duotone",
+            "comic",
+            "mirror",
+            "chromaKey",
+            "removeBackground",
+            "vignette",
+            "tiltShift",
+            "punchIn",
+            "dreamBlur",
+            "halftone",
+            "pixelate",
+            "neonEdges",
+            "invert",
+            "kaleidoscope",
+            "fisheye",
+            "strobe",
+            "dutchTilt"
+          ],
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id",
+        "type"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_effect"
+  },
+  {
+    "description" : "Removes a scene effect from a clip by type.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "type" : {
+          "description" : "Effect type",
+          "enum" : [
+            "kenBurnsIn",
+            "kenBurnsOut",
+            "panLeft",
+            "panRight",
+            "shake",
+            "pulse",
+            "glow",
+            "flash",
+            "lightLeak",
+            "cinemaBars",
+            "grain",
+            "vhs",
+            "chromatic",
+            "glitch",
+            "blurIn",
+            "blurOut",
+            "posterize",
+            "duotone",
+            "comic",
+            "mirror",
+            "chromaKey",
+            "removeBackground",
+            "vignette",
+            "tiltShift",
+            "punchIn",
+            "dreamBlur",
+            "halftone",
+            "pixelate",
+            "neonEdges",
+            "invert",
+            "kaleidoscope",
+            "fisheye",
+            "strobe",
+            "dutchTilt"
+          ],
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id",
+        "type"
+      ],
+      "type" : "object"
+    },
+    "name" : "remove_effect"
+  },
+  {
+    "description" : "Builds a whole directed edit in ONE undoable step from an edit decision list: the cuts (which part of which clip, in order) with per-cut transition, speed, sound, look, framing and effects, plus titles, music and sound effects. This is the main tool for making a film. Read the edit-decision-list skill for the format.",
+    "inputSchema" : {
+      "properties" : {
+        "canvas" : {
+          "description" : "Optional 16:9, 9:16, 1:1 or 4:5",
+          "type" : "string"
+        },
+        "cuts" : {
+          "description" : "In playing order. Each: {asset_id, start_ms, end_ms (source range), transition (none|crossfade|...; join with the previous cut), transition_ms, speed, sound (keep|mute|0..2), fade_in_ms, fade_out_ms, look (preset name or {brightness,contrast,saturation,sepia,blur,vignette}), scale, offset_x, offset_y, opacity, effects:[{type,amount}]}",
+          "items" : {
+            "type" : "object"
+          },
+          "type" : "array"
+        },
+        "music" : {
+          "description" : "{name (built-in, see list_sounds) or asset_id, volume (default 0.6), start_ms, source_in_ms, duck (lower the music under clip sound)}",
+          "type" : "object"
+        },
+        "overlays" : {
+          "description" : "Drawn overlays, each: {kind (confetti|snow|rain|sparkles|bokeh|dust|sunbeams|frame|hearts|fireflies), start_ms (timeline), duration_ms, amount, fade_in_ms, fade_out_ms}",
+          "items" : {
+            "type" : "object"
+          },
+          "type" : "array"
+        },
+        "replace" : {
+          "description" : "Start over when the timeline already has clips (the user can undo)",
+          "type" : "boolean"
+        },
+        "sfx" : {
+          "description" : "Sound effects. ONLY when the user asked for them. Each: {name, at_cut (cut index) or at_ms, offset_ms, volume}",
+          "items" : {
+            "type" : "object"
+          },
+          "type" : "array"
+        },
+        "titles" : {
+          "description" : "Each: {text, start_ms (timeline), duration_ms, preset (center|lowerThird|subtitle), size, color, x, y, align, bold, shadow, outline, box, fade_in_ms, fade_out_ms}",
+          "items" : {
+            "type" : "object"
+          },
+          "type" : "array"
+        }
+      },
+      "required" : [
+        "cuts"
+      ],
+      "type" : "object"
+    },
+    "name" : "build_edit"
+  },
+  {
+    "description" : "Points an asset whose file moved to its new location (same kind of media, long enough for the clips that use it).",
+    "inputSchema" : {
+      "properties" : {
+        "asset_id" : {
+          "description" : "Asset id",
+          "type" : "string"
+        },
+        "path" : {
+          "description" : "Absolute path of the file",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "asset_id",
+        "path"
+      ],
+      "type" : "object"
+    },
+    "name" : "relink_asset"
+  },
+  {
+    "description" : "Links two or more clips so they move, split and delete together (e.g. a video clip and its detached sound).",
+    "inputSchema" : {
+      "properties" : {
+        "clip_ids" : {
+          "description" : "Clip ids to link",
+          "items" : {
+            "type" : "string"
+          },
+          "type" : "array"
+        }
+      },
+      "required" : [
+        "clip_ids"
+      ],
+      "type" : "object"
+    },
+    "name" : "group_clips"
+  },
+  {
+    "description" : "Dissolves the group a clip belongs to.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "ungroup_clip"
+  },
+  {
+    "description" : "Animates a clip's opacity, scale, position and rotation over time with keyframes (time from the clip start). Values glide between keyframes and hold after the last. An empty list removes the animation. Omitted fields default to opacity 1, scale 1, offsets 0, rotation 0.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "keyframes" : {
+          "description" : "Each: {time_ms, opacity, scale, offset_x, offset_y, rotation, smooth (ease, default true)}",
+          "items" : {
+            "type" : "object"
+          },
+          "type" : "array"
+        }
+      },
+      "required" : [
+        "clip_id",
+        "keyframes"
+      ],
+      "type" : "object"
+    },
+    "name" : "set_keyframes"
+  },
+  {
+    "description" : "Detects quiet stretches in a clip's sound and cuts them out, closing the gaps (the picture is cut too). Good for talking clips.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "min_silence_ms" : {
+          "description" : "Shortest silence to remove, default 700",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "remove_silence"
+  },
+  {
+    "description" : "Sets a clip's volume so its sound is at a standard level (about -20 dBFS), keeping its fades.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "normalize_audio"
+  },
+  {
+    "description" : "Cleans a clip's sound: removes low rumble and gates the hiss in the pauses. A video clip's sound is detached onto its own audio clip first (grouped). Simple noise reduction.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "reduce_noise"
+  },
+  {
+    "description" : "Transcribes the speech of a clip and adds subtitles on a Captions track, timed to the clip. Needs the Eclipse app (speech recognition permission).",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "language" : {
+          "description" : "Locale like en-US or nl-NL",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "auto_captions"
+  },
+  {
+    "description" : "Writes the subtitles (Captions track, or all titles) as an .srt file.",
+    "inputSchema" : {
+      "properties" : {
+        "path" : {
+          "description" : "Output path ending in .srt",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "path"
+      ],
+      "type" : "object"
+    },
+    "name" : "export_srt"
+  },
+  {
+    "description" : "Adds an emoji sticker (a large animated title) at a timeline position. Move it with set_text_style x \/ y.",
+    "inputSchema" : {
+      "properties" : {
+        "duration_ms" : {
+          "description" : "Default 2500",
+          "type" : "integer"
+        },
+        "emoji" : {
+          "description" : "One or a few emoji",
+          "type" : "string"
+        },
+        "start_ms" : {
+          "description" : "Default: playhead",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "emoji"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_sticker"
+  },
+  {
+    "description" : "Puts a clip back to plain: removes its look, framing, keyframes, effects, speed change and volume changes.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "reset_clip"
+  },
+  {
+    "description" : "File facts of an imported asset: size, format, resolution, frame rate, codecs, sound, and how it is used in the project.",
+    "inputSchema" : {
+      "properties" : {
+        "asset_id" : {
+          "description" : "Asset id",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "asset_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "asset_info"
+  },
+  {
+    "description" : "Drawn overlay layers you can add with add_overlay (confetti, snow, ...).",
+    "inputSchema" : {
+      "properties" : {
+
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "list_overlays"
+  },
+  {
+    "description" : "Adds a drawn overlay (confetti, snow, rain, sparkles, bokeh, dust, sunbeams, frame, hearts, fireflies) on a video layer above the picture.",
+    "inputSchema" : {
+      "properties" : {
+        "amount" : {
+          "description" : "Density 0...1, default 0.5",
+          "type" : "number"
+        },
+        "duration_ms" : {
+          "description" : "Default 4000",
+          "type" : "integer"
+        },
+        "kind" : {
+          "description" : "Overlay type",
+          "enum" : [
+            "confetti",
+            "snow",
+            "rain",
+            "sparkles",
+            "bokeh",
+            "dust",
+            "sunbeams",
+            "frame",
+            "hearts",
+            "fireflies",
+            "stars",
+            "embers",
+            "petals",
+            "bubbles",
+            "leaves",
+            "fireworks",
+            "smoke",
+            "streaks",
+            "digitalRain"
+          ],
+          "type" : "string"
+        },
+        "start_ms" : {
+          "description" : "Default: playhead",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "kind"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_overlay"
+  },
+  {
+    "description" : "Creative directions for a film: three DIFFERENT, coherent starting points (structure, joins, look, one signature touch, title style, speed use, restraint), varied on every call and avoiding the ones suggested last time. Call it before planning a creative film, pick one (or blend two) that fits the footage and the mood, and say which you chose and why. Read the creative-toolbox skill for how to use it.",
+    "inputSchema" : {
+      "properties" : {
+        "count" : {
+          "description" : "How many, 2...5 (default 3)",
+          "type" : "integer"
+        },
+        "mood" : {
+          "description" : "Words for the feeling or kind of film, e.g. 'party highlight' or 'calm travel memories'",
+          "type" : "string"
+        }
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "suggest_treatments"
+  },
+  {
+    "description" : "Complete film styles (colour grade, effects, joins, title look, overlay, suggested music) you can apply to the whole movie or to chosen clips with apply_template.",
+    "inputSchema" : {
+      "properties" : {
+
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "list_templates"
+  },
+  {
+    "description" : "Applies a film style (see list_templates) in one undo step: colour grade and effects on the video clips, the join style between clips, title look, and an overlay over the movie. It replaces the clips' earlier look and effects. Use clip_ids to style only some clips.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_ids" : {
+          "description" : "Only these clips. Default: all video clips",
+          "items" : {
+            "type" : "string"
+          },
+          "type" : "array"
+        },
+        "music" : {
+          "description" : "Also add the template's suggested music bed. Default false",
+          "type" : "boolean"
+        },
+        "name" : {
+          "description" : "Template name, e.g. Blockbuster",
+          "type" : "string"
+        },
+        "overlay" : {
+          "description" : "Add the template's overlay. Default true",
+          "type" : "boolean"
+        },
+        "titles" : {
+          "description" : "Restyle titles. Default true",
+          "type" : "boolean"
+        },
+        "transitions" : {
+          "description" : "Add\/restyle the joins. Default true",
+          "type" : "boolean"
+        }
+      },
+      "required" : [
+        "name"
+      ],
+      "type" : "object"
+    },
+    "name" : "apply_template"
+  },
+  {
+    "description" : "Speed Ramp Studio: smooth changes of speed inside one clip (slow motion into normal into fast), from a preset or your own curve. The clip becomes a chain of pieces; the movie gets longer or shorter by the difference and later clips follow. Presets: Slow-mo dip, Hero pause, Ramp up, Ramp down, Speed burst, Slow ending, Slow start, Pulse.",
+    "inputSchema" : {
+      "properties" : {
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        },
+        "points" : {
+          "description" : "Or your own curve: [{position 0...1, speed 0.1...8}] with rising positions, e.g. [{position:0,speed:1},{position:0.5,speed:0.3},{position:1,speed:1}]",
+          "items" : {
+            "type" : "object"
+          },
+          "type" : "array"
+        },
+        "preset" : {
+          "description" : "A preset name",
+          "type" : "string"
+        },
+        "segments" : {
+          "description" : "Smoothness: pieces to cut the clip into, 4...40, default 20",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "ramp_speed"
+  },
+  {
+    "description" : "Smart Match Cuts: finds pairs of moments in two clips that look alike (colour, brightness, where the bright shape sits) so a hard cut between them feels like one motion, e.g. a round sun into a spinning wheel. Returns times to cut out of one clip and into the other.",
+    "inputSchema" : {
+      "properties" : {
+        "asset_ids" : {
+          "description" : "Clips to compare. Default: all video assets",
+          "items" : {
+            "type" : "string"
+          },
+          "type" : "array"
+        },
+        "limit" : {
+          "description" : "How many pairs, default 5",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "find_match_cuts"
+  },
+  {
+    "description" : "Adds a match cut at the end of the timeline: the first clip plays up to time_a_ms, the second continues from time_b_ms (use the numbers from find_match_cuts).",
+    "inputSchema" : {
+      "properties" : {
+        "asset_a" : {
+          "description" : "First clip",
+          "type" : "string"
+        },
+        "asset_b" : {
+          "description" : "Second clip",
+          "type" : "string"
+        },
+        "lead_ms" : {
+          "description" : "How much of the first clip to show before the match, default 1800",
+          "type" : "integer"
+        },
+        "tail_ms" : {
+          "description" : "How much of the second clip after the match, default 2500",
+          "type" : "integer"
+        },
+        "time_a_ms" : {
+          "description" : "Where the first clip ends",
+          "type" : "integer"
+        },
+        "time_b_ms" : {
+          "description" : "Where the second clip starts",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "asset_a",
+        "time_a_ms",
+        "asset_b",
+        "time_b_ms"
+      ],
+      "type" : "object"
+    },
+    "name" : "add_match_cut"
+  },
+  {
+    "description" : "Smart Reframe: makes a landscape clip fill a vertical or square canvas and follows the main person or subject (faces first, then people, then the most eye-catching area). Set the canvas first (set_format) or pass aspect.",
+    "inputSchema" : {
+      "properties" : {
+        "aspect" : {
+          "description" : "Optional: set the movie canvas to this shape first",
+          "enum" : [
+            "9:16",
+            "1:1",
+            "4:5"
+          ],
+          "type" : "string"
+        },
+        "clip_id" : {
+          "description" : "Clip id from get_project",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "clip_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "smart_reframe"
+  },
+  {
+    "description" : "Undoes the last edit.",
+    "inputSchema" : {
+      "properties" : {
+
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "undo"
+  },
+  {
+    "description" : "Redoes the last undone edit.",
+    "inputSchema" : {
+      "properties" : {
+
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "redo"
+  },
+  {
+    "description" : "Facts and an activity\/loudness summary of an imported clip, plus suggested best moments and probable cuts. Use before watch_asset.",
+    "inputSchema" : {
+      "properties" : {
+        "asset_id" : {
+          "description" : "Asset id",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "asset_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "inspect_asset"
+  },
+  {
+    "description" : "Contact sheet image of evenly spaced frames of an imported clip, each labelled with its time. Narrow start_ms\/end_ms and raise frames to study a moment.",
+    "inputSchema" : {
+      "properties" : {
+        "asset_id" : {
+          "description" : "Asset id",
+          "type" : "string"
+        },
+        "end_ms" : {
+          "description" : "Default: end of clip",
+          "type" : "integer"
+        },
+        "frames" : {
+          "description" : "Default 12, max 24",
+          "type" : "integer"
+        },
+        "start_ms" : {
+          "description" : "Default 0",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "asset_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "watch_asset"
+  },
+  {
+    "description" : "Contact sheet of the EDITED result (clips, transitions, titles, looks) between two timeline times. Use it to review your work.",
+    "inputSchema" : {
+      "properties" : {
+        "end_ms" : {
+          "description" : "Default: end of movie",
+          "type" : "integer"
+        },
+        "frames" : {
+          "description" : "Default 12, max 24",
+          "type" : "integer"
+        },
+        "start_ms" : {
+          "description" : "Default 0",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+
+      ],
+      "type" : "object"
+    },
+    "name" : "watch_timeline"
+  },
+  {
+    "description" : "Speech to text with timestamps (ms) for an imported clip, using Apple's recognizer. The first call may ask the user for permission.",
+    "inputSchema" : {
+      "properties" : {
+        "asset_id" : {
+          "description" : "Asset id",
+          "type" : "string"
+        },
+        "language" : {
+          "description" : "Locale like en-US or nl-NL. Default: the Mac's language",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "asset_id"
+      ],
+      "type" : "object"
+    },
+    "name" : "transcribe_asset"
+  },
+  {
+    "description" : "Returns an image of the composited frame (clips, transitions, titles) at a timeline time, so you can check your edit.",
+    "inputSchema" : {
+      "properties" : {
+        "time_ms" : {
+          "description" : "Timeline position",
+          "type" : "integer"
+        }
+      },
+      "required" : [
+        "time_ms"
+      ],
+      "type" : "object"
+    },
+    "name" : "get_frame"
+  },
+  {
+    "description" : "Renders the project to an H.264\/AAC MP4 at the given absolute path (can take a while). Optionally pick a preset: youtube720, youtube1080, youtube4K, tiktok, instagramFeed, square. Clips are fitted into the preset's frame.",
+    "inputSchema" : {
+      "properties" : {
+        "path" : {
+          "description" : "Output file path ending in .mp4",
+          "type" : "string"
+        },
+        "preset" : {
+          "description" : "Optional size preset; default is the movie's own canvas",
+          "enum" : [
+            "youtube720",
+            "youtube1080",
+            "youtube4K",
+            "tiktok",
+            "instagramFeed",
+            "square"
+          ],
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "path"
+      ],
+      "type" : "object"
+    },
+    "name" : "export"
+  },
+  {
+    "description" : "OFFLINE MODE: opens a viewer in the app where the user watches their video files one by one and marks 'start here' and 'end here' for the parts that matter. Waits until they press Done and returns, per file, the ranges in milliseconds (use them as start_ms\/end_ms in build_edit). You cannot see the footage yourself. Call it once, early.",
+    "inputSchema" : {
+      "properties" : {
+        "asset_ids" : {
+          "description" : "Optional: only these files (ids from get_project). Default all videos",
+          "items" : {
+            "type" : "string"
+          },
+          "type" : "array"
+        },
+        "reason" : {
+          "description" : "One short sentence shown to the user, e.g. 'Mark the best moments of each clip'",
+          "type" : "string"
+        }
+      },
+      "required" : [
+        "reason"
+      ],
+      "type" : "object"
+    },
+    "name" : "request_selection"
+  }
+]

@@ -52,7 +52,7 @@ public enum ClaudeRunner {
         let own = all.filter(\.fromAgent).map { "- \($0.name): \($0.summary)" }.joined(separator: "\n")
         let ownBlock = own.isEmpty ? "" : "\n\nSkills from the user's own agent. Read one with get_skill when it clearly fits the request (writing, research, design); ignore the rest:\n\(own)"
         return """
-        You are the director's assistant built into Lumacut, a video editor. You control it only through the movie-maker MCP tools.
+        You are the director's assistant built into Eclipse, a video editor. You control it only through the movie-maker MCP tools.
         For any creative request (making or reshaping a film, pacing, music, titles, look, effects) first read the skill director-brief with get_skill, \
         then the skills it routes you to. You are a DIRECTOR: look at the clips (inspect_asset, watch_asset, transcribe_asset), choose the moments, vary the cut lengths, \
         pick joins, sound and effects on purpose, build the film with build_edit, then review it with watch_timeline. Never use auto_movie for creative requests. Do NOT add sound effects (whooshes, hits) unless the user asks for them: films get music and the original sound only. Look at footage (inspect_asset, watch_asset) before judging it. Call get_project before editing and \
@@ -148,6 +148,7 @@ public enum ClaudeRunner {
                     let home = FileManager.default.homeDirectoryForCurrentUser.path
                     env["PATH"] = ["\(home)/.local/bin", "/opt/homebrew/bin", "/usr/local/bin", "/usr/bin", "/bin", env["PATH"] ?? ""].joined(separator: ":")
                     if let configDir { env["CLAUDE_CONFIG_DIR"] = configDir }
+                    env["MCP_TOOL_TIMEOUT"] = "3600000"   // ask_user, request_selection and propose_script wait for the user: allow up to an hour
                     process.environment = env
                     let out = Pipe(), err = Pipe()
                     process.standardOutput = out; process.standardError = err; process.standardInput = FileHandle.nullDevice
