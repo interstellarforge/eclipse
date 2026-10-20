@@ -2,839 +2,839 @@
   {
     "isFramework" : true,
     "moduleName" : "AVFAudio",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AVFAudio-3PQMSAGJTQ6ZR.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AVFAudio-LWOTSVBST02R.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "AVFoundation",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AVFoundation-3NC1B8HUVJN8F.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AVFoundation-ZT2CMKG9YNU8.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Accelerate",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Accelerate-16YH7TZQRM26F.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Accelerate-2ZCZUXX8YGWM8.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "Accessibility",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Accessibility-J8GQ57VH3LNT.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Accessibility-K0MJL2VCV47C.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "AppKit",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AppKit-2TAIW72OG4XDN.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AppKit-298PCKS5NPEWV.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "AudioToolbox",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AudioToolbox-20KBY124FV12A.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AudioToolbox-QFW6U213PK8F.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "ColorSync",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ColorSync-3A30X05K5U9DG.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ColorSync-2UZ7FAYHI0F0I.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "Combine",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Combine-3Q297Y81VBN4R.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Combine-25PLID74NHJ3E.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Compression",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Compression-20PPQGANL1PTC.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Compression-2IAW5HNHOCZNX.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "CoreAudio",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreAudio-19LRZ4R5DN6YG.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreAudio-2OT82XF1STBWI.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "CoreData",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreData-8B3HQLZU66Q2.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreData-25ICHXDPG8FZD.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "CoreFoundation",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-2ZLQ2UC42PI63.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-1KLZXFCF17JEA.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "CoreGraphics",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreGraphics-2DRO5VV9T1EXY.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreGraphics-2GRAZUANBE8W9.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "CoreImage",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreImage-DIBPI3XNWJTO.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreImage-2R4DD6K7LG98S.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "CoreMIDI",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMIDI-376EPPA13EPSA.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMIDI-38CSCCLIQJFAJ.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "CoreML",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreML-2STKQGA4111U3.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreML-3G4585WNPR3IG.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "CoreMedia",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMedia-YML25VVHSG4Q.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMedia-39ZZJ22XMM5I5.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "CoreText",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreText-1IUPX04YWUSWV.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreText-3Q7WCY6110AV5.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "CoreTransferable",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreTransferable-3LVETFTA39H3.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreTransferable-R2UN2VABP0FM.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "CoreVideo",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreVideo-3W25D9DOKVF88.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreVideo-A73IZI6C5YTP.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "CryptoKit",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CryptoKit-21BTE6EZCWYHP.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CryptoKit-J9F3DU8AR8E1.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Darwin",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-1NQP77YICFVX6.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-2LXIPJO0MU40E.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "DataDetection",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DataDetection-28AB3OVX1ETE0.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DataDetection-2V0ZWWNT6K7RD.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "DeveloperToolsSupport",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-1SNRFNB1D0EAC.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-2H9SMCSVUOSXW.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Dispatch",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-1CCQUBO74M98Z.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-2FQ0BKWLJJZJ.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Distributed",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Distributed-24F3837DJX8FJ.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Distributed-LF1Y0XC6T7T.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "Foundation",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-1AYMNIKAFRTV3.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-2UFUJZNP7EB4D.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "IOKit",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-2C1FNL2N0V5NK.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-1FA5I5FBVC5QT.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "ImageIO",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ImageIO-3BV4QJRG6C6JX.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ImageIO-1QRLNZ991HPGR.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "LocalAuthentication",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/LocalAuthentication-3ET0H9SXOCTZ9.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/LocalAuthentication-3K1YWCGOQUPIF.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "MediaToolbox",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/MediaToolbox-1DZ5BXB7W74LA.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/MediaToolbox-2TAHYKRHVIXA7.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Metal",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Metal-3BNIQBWNU3JKK.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Metal-1P5V4PTZJIMS7.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "Network",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Network-150G1MGD56WDF.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Network-2LJNZQG092P90.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "OSLog",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/OSLog-27EC4OFS9NLAW.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/OSLog-MZZZIXJYOZAQ.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "ObjectiveC",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-2KM4UV8JNE9YY.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-ZXPDM1RLJ4TA.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Observation",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Observation-LP77J643BZKQ.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Observation-1UEM8AJJY01SQ.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "QuartzCore",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/QuartzCore-LQHXT8D3QO84.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/QuartzCore-2J2B9G5I4WYRX.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Spatial",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Spatial-8FRMZCL0NY2H.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Spatial-1A1VY04QVOVDZ.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "Speech",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Speech-13EX299W4DKC5.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Speech-2WRB5IZNIU03E.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Swift",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Swift-3T5PE9LCDP1R0.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Swift-G50DVU32Y67W.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "SwiftUICore",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUICore-4F8P5IO3JGTS.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUICore-8EVHJ51T1FX0.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "Symbols",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Symbols-12YQ2AGTQZ4KT.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Symbols-17IL07XR4JJ0B.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Synchronization",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Synchronization-6PBHQKMTQEFG.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Synchronization-6Z3MD5F6BSDG.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "System",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/System-1E4XLUHQVSR2N.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/System-1PL5AI0H3X51H.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "UniformTypeIdentifiers",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-29JUDH6AQCURS.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-2R6MT8BJQNF2M.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "VideoToolbox",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/VideoToolbox-2U3NYT8E351ZQ.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/VideoToolbox-24EF3THBKEH49.swiftmodule"
   },
   {
     "isFramework" : true,
     "moduleName" : "Vision",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Vision-TJZ0O16JB23H.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Vision-3N6CYLY2V7694.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "XPC",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-IW8PYGRNUU6I.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-29TKT80C7ORBF.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_Builtin_float",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-S8A6ORR8NZWX.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-E48TDM3J4UWK.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_Concurrency",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Concurrency-2F04O00LIB0RQ.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Concurrency-L7CSHKGET9SQ.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation1",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-2HRRDWN2APDXR.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-2BI0BK8YM3EZ2.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation2",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-165I8BW03FCFG.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-3N3MBWBVM1SWD.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation3",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-V7SZQZ207IBR.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-6J8F6WIYWXXC.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_StringProcessing",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_StringProcessing-2JEG8HPC71W7W.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_StringProcessing-3M4Q4EUC5QEH.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "os",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/os-3CLDSXCYSD70H.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/os-2AP0MFS2JX4M0.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "simd",
-    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/simd-3G9RKCIS9WDZE.swiftmodule"
+    "modulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/simd-2RIMNI78GMJ04.swiftmodule"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/AVFAudio.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AVFAudio-3NV3KOP6E8D1VN31JLJKOW6R2.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AVFAudio-2ZE63LERZX8X839882V0XP0OV.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "AVFAudio"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/AVFoundation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AVFoundation-7SXM82WGX9ALBNP68DUZ287PM.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AVFoundation-B9MRV05HGOUEQ55I878X0LQ9A.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "AVFoundation"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Accelerate.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Accelerate-CI80W5TGC6ZI2YJC1QEV8ISXJ.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Accelerate-ASOFMY74SZ4SFJCCDZFXXVH1Y.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Accelerate"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Accessibility.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Accessibility-6P6Q4VAEZPZ15K5E77XT63KZI.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Accessibility-4YZFLQEDBNINWAX9G214DCRUN.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Accessibility"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/AppKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AppKit-EXUO8QE0NHRP6KSMFUF6JLANZ.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AppKit-BTPEIH8Z3VU58R5VVK7FVGEAT.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "AppKit"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ApplicationServices.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ApplicationServices-31KQU2O4HYREKORC5AL54AFLT.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ApplicationServices-4Z3HBXDA4G135TAIT5GORSKK3.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ApplicationServices"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/AudioToolbox.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AudioToolbox-DX8ASLXB7OW4JIQ3ZABVB4CR1.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/AudioToolbox-3YHWJBDH6YGDAWCLYQDC9UNJR.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "AudioToolbox"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CFNetwork.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CFNetwork-62TGJQCBVZDMJCO0XG2ULQZCL.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CFNetwork-7T1VGCDV8W5IGA7NW89GZY0HO.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CFNetwork"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/cups.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CUPS-1CVC60FOYHJ6VB3U7MARXAE7P.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CUPS-35Q1EQNEW7GPJL03JUVOXMZRK.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CUPS"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Carbon.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Carbon-8NOUYZRJHBBV3IJP3ZTZQ08V.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Carbon-D53DMV194LS3O5M747Z3SCVMA.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Carbon"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ColorSync.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ColorSync-ETDOZL6554AUYC02Q5XJX1QBX.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ColorSync-61D0T9XRHNCFRS6O2GKHPTTMC.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ColorSync"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/compression.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Compression-5WOMOOQAJVSLHLFS3QWLI56QR.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Compression-CC9QFU8W1DOBEP94RDC4UXIM4.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Compression"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreAudio.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreAudio-36DU8Z8OTO4EWOBZ9O1BBDWNW.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreAudio-1TZCFLZA2OVOQ2A5WLUB3PDYG.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreAudio"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreAudioTypes.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreAudioTypes-BI892BU43G6MPDWZ8QB1RINVI.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreAudioTypes-4D0GPQBQUK00B1Y44GMF0QP5E.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreAudioTypes"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreData.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreData-1NUO8F59QUFHHJ8P6JV9CTOXK.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreData-DW0KFPGVLC3UVYX283H0PXY8Z.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreData"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreFoundation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-6N6MPIOAHPTJ0K8AOQENZNC51.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreFoundation-2SZANMQH99OR2VEF22UUIICCL.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreFoundation"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreGraphics.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreGraphics-AJU2JXMWCFT0F5N0E5J36LWQD.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreGraphics-DF1WVIKKVW5GFVDETWRVW7ALL.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreGraphics"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreImage.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreImage-7QS8MNAZ6MA6WLATK3357I7ZN.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreImage-96IEZBYUE3DEB1J4EH0G41DT3.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreImage"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreMIDI.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMIDI-BPZ2CM0JHZ49JS1MNKIUCNMWS.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMIDI-BGXW2TMV9CXD8OIJQS6FITX7O.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreMIDI"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreML.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreML-43V4RIPVMWP2VC98MCRBTP6Z6.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreML-CT9YO8XDIA9ZMNXDGTAT5M55S.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreML"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreMedia.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMedia-4UTV1XQLB848Q3O8KIC9IO7CL.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreMedia-A99022QDDQ6HGII3MDVTBPNB1.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreMedia"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreServices.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreServices-14XY2MP40GZ2C3BKM2FZDXXWI.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreServices-BFALXC0C89W616W1C5ROC9M6T.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreServices"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreText.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreText-B7RV1GA8662S3GHAZ4SOQG0KP.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreText-X3A5BNK4TLL3VQR31AG1UW9A.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreText"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreTransferable.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreTransferable-28UIG9CDN8AX1U2KDF5WRHRCB.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreTransferable-3RLKXVX9UTQ1DP5EOFIE7KXVI.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreTransferable"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/CoreVideo.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreVideo-89V1RJ6OY672XPG471SOUOG3.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/CoreVideo-BP2CHNABO7LCBCS1C55JJE489.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "CoreVideo"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/Darwin.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-11IF1B4QS15R6XRUSSI5ZCDST.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Darwin-29HSFSC954ZRWXPO94Y81PIAB.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Darwin"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/DataDetection.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DataDetection-1W8MGXGAYBH73TVG6ZIAQR4MY.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DataDetection-BVGA9DG5WYH45W7ATVN9CIDU7.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "DataDetection"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/DeveloperToolsSupport.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-590IISMRJ0JVYOH4R4SPOSRAS.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DeveloperToolsSupport-F1GRPJHSV77K3G1IIOREHP9FO.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "DeveloperToolsSupport"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/DiskArbitration.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DiskArbitration-4WSLZ51B8V4YJZ4R6M72IQDW5.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/DiskArbitration-BXTOMBP7UP8DT50II5P9OZQ5S.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "DiskArbitration"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/dispatch.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-9OMGTXPD2X9Y9XYUU4M069H6E.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Dispatch-1Y7J7VK4MVLUVX0ZQHKZCDERP.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Dispatch"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Foundation.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-EGEL0H8XQD03WD6QEQYRB373Y.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Foundation-6VLX5U71JRR1RHSJO5NN2RKAH.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Foundation"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/IOKit.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-2Y52QBMNU8XWBVR61BTM0RU6C.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/IOKit-1E6YWPBCMWGSO5RUH4CVGMP3Y.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "IOKit"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/IOSurface.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/IOSurface-7ME3MLEYXWLU4GTIINAFFTN4.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/IOSurface-AS7BK6SREYH996M8K5JK88E84.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "IOSurface"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/ImageIO.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ImageIO-1LLGWAHYE0VH55T89N4986I2J.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ImageIO-BV5NVRICJADHF4Q6BX2338DA9.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ImageIO"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/LocalAuthentication.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/LocalAuthentication-B1XRLW2SYG11M8CS7FWRMXT5C.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/LocalAuthentication-Z8VAHRI8H1UA1X84ISWL1FAT.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "LocalAuthentication"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinBasic.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/MachO-3UQJRK4FPBI6O2RR7DU8XQGEW.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/MachO-CJCF5VPQY58QSE6B8JPRPHVWG.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "MachO"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/MediaToolbox.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/MediaToolbox-2FAANGITGGGTOFVB0ZQLRUA1Q.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/MediaToolbox-T4KRU3NXDAE14A4621NUHM7Y.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "MediaToolbox"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Metal.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Metal-DH9FJZX36IYDX9H42G62JKB3.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Metal-2W1FCRIRF6LXA8AY2M38250MB.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Metal"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Network.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Network-59JZYNARI70441M1K28HLT245.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Network-1K7Y1OT165V0RIG7YM8F1P6Z0.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Network"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/OSLog.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/OSLog-6S2EKG47E9ZVLE818FDNBUCOE.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/OSLog-4U065BCE6IGDAOCM2LIQS3OT9.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "OSLog"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/ObjectiveC.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-5GD8E952X1VRK0GKXD72U5EYA.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ObjectiveC-YGCWGDSH5VOL7ZPJ3PP8LKZM.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ObjectiveC"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/OpenGL.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/OpenGL-28T173GBR12JGAZH8USSV5STR.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/OpenGL-1GFQF4I6C6M6NW3IFTLDFI37W.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "OpenGL"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/QuartzCore.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/QuartzCore-DGVTY2REHIXDKP4QYDVYYEOP.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/QuartzCore-E8PM7XB56DKLJEW460XMUMHLK.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "QuartzCore"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Security.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Security-22VKVTIXDPX1DZ9KJB72PLKHM.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Security-5ZPDWSQSTI5SXTZTGH4HUI0BB.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Security"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/Spatial\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Spatial-BJBM8F1YOGUUYAPYSNYBRJJMU.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Spatial-9YCIVX86ELOENDHWWFPFZD6LN.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Spatial"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Speech.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Speech-7GMZ3S0I13BB2YBB933P4UXE1.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Speech-A7TU24JIV5RBG5XRJ5J0QSV5X.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Speech"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftShims-DKX61NWF5UAS8E1CS6KD0S7A7.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftShims-BEFGU6BRSF9ELMRS5V3XJ70VZ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SwiftShims"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/SwiftUICore.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUICore-B714INMKTUUK8GP8OUFNLQYYD.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/SwiftUICore-7TQT0B8EXGVLH9JZOME8ANXS3.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SwiftUICore"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Symbols.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Symbols-4GDJPP8AU5RDN9KO2SVBCVJTX.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Symbols-ELKE3P4H19R0BMJSS6KN9Q0TO.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Symbols"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/UniformTypeIdentifiers.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-1924F50Q42TVK194GEW58D14G.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/UniformTypeIdentifiers-CFTNC9CCSU3VB6XYDP96J6FB5.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "UniformTypeIdentifiers"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/VideoToolbox.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/VideoToolbox-BTI5GNLGBCFHQ95H6NGUBPUE8.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/VideoToolbox-5OAL3PD9XM0DEAP6W86JEOR67.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "VideoToolbox"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/System\/Library\/Frameworks\/Vision.framework\/Modules\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Vision-4YWDM0BV5HFFONIJOK6J3KIBE.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/Vision-6RRBRQGILBD79UC474J8H709O.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Vision"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/xpc.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-6PL0YCCYD9BJJ5H8PYADGNIVO.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/XPC-DZEHZ9CCJI7OGBUDHOEFAQU9A.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "XPC"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation1.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-BOA4MJ8E30ZI3H3ZIRYQ1KNXZ.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-2C7UO4B2M2V6O2L9T9PXVPSNL.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_AvailabilityInternal"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-2DNT2VFVKM9U46MLFCYRU2TFG.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_float-DN2DHSWZ26UOZJKC6A4YRY496.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_float"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_intrinsics-73ECZZQ7UMBUUZ38DIT252E93.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_intrinsics-ERXCOU17WE7HAQUNB66RTWS9K.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_intrinsics"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-CL44S23ECKOQA7Y9JWDMC3V8H.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-2KAOLFP7U8O419NVMS79G5THD.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_inttypes"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_limits-DL8NUO1OCVR7JADXP1NNQKBLN.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_limits-97T7NRBER7GTJAEMQULT4XH45.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_limits"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-EAJBIJHQQAL9IA99D6PQW8VMM.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-D6LPQJUKB0DBLWO5EZ63GG43F.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdarg"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdatomic-9GV0VB02JYM7E6RJN5X9SY3M2.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdatomic-BN0ATCHLIEWRPM34Z5WMCIB1E.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdatomic"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-8A7AYHO7PR0VE4BM67H3V2B7X.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-T56O69DZXABLP8MZFW4N67CV.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdbool"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stddef-A60ALLJYTDFG2OM6BSMVE7M68.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stddef-9OSN9QV5TKUHZMRFR2980M2S7.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stddef"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdint-9M2K6SXWI69T8V4P4F5P9OQWQ.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_stdint-AXDHRHS9P83T3BYNZ1ZSCWG3W.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdint"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_tgmath-C718CEJ5DGL4F5VIWRKXLIZGD.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_Builtin_tgmath-CVPIFJB8AUKLSYZ0V1NBNVWQK.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_tgmath"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation1.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-4WU27E09RE451DSM9MURIFD3I.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-EDVV3436MIK3RYTP5TEQ3QZEN.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation1"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation2.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-8PWK97UBTACZS8P8Z5F1C5AGT.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-2QAW37QQO5E1FABYW3BMUXFU.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation2"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation3.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-D1QT6RSM084SE5AIQDWS6GWK4.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-CP55O5I8OUV7MF0D6EESWG263.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation3"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-901ZIQEX75QERXQ7O30QAJ6DQ.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-E9ZPWETBAR2C33FR63ZNGVMZY.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_SwiftConcurrencyShims"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/dnssd.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/dnssd-9RU7KKF1LNNOW7P1SXNS7ZVAL.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/dnssd-4MEHCOBESV6GM8K1I29M2ZSLP.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "dnssd"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/launch.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/launch-C867SYUCCDS3YA6W9QQCR2RD5.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/launch-ANTVIEF6ORQ56J3PLII0T9NLI.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "launch"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/libDER\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/libDER-3IBSWJO4SRBTF6V8ERJ1DLJOG.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/libDER-5Q16IDOKXFBH56KHLK3UN55AO.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "libDER"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/libkern.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/libkern-EMJ9W3P0ZKR0ZOLS2P5TLDK21.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/libkern-E5JK1GST20U3GEGSWSJWFONMP.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "libkern"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/os.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/os-108CQNCZST0NKYLL9WO3FLF6Y.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/os-1VI7O8BLPQ26P6OJYYO7QIN2B.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "os"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/os.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/os_object-6PFTT3GCCJESD51UQKGWZYVF.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/os_object-AVFIAPNL7BV6I1TVFAY10827D.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "os_object"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/os.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/os_workgroup-3CHERGA3OD3OJQCHZTFSMDUYK.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/os_workgroup-EK4FHX5WHE02HEMJKR32UJYAZ.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "os_workgroup"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ptrauth-B56YU41356PWGY4ICWE9KMLC5.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ptrauth-89N1AQZKRHXDRESK8HOO7EZCA.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ptrauth"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ptrcheck-9BNYY9BE2M9WRSU8KD7V1E6AR.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/ptrcheck-6CLA7Z15KJYVBFLGES66Z66EM.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ptrcheck"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/simd\/module.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/simd-3PBK6CXN1HBV7H6UPIS5ZUOWL.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/simd-4JSY4SGR6V3EPOEA341KENZDG.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "simd"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/c_standard_library.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/string_h-61TLBOTUZKUINH848MTRBXP1Y.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/string_h-DYVOVNZ6FJ7P0QQEFES207AQA.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "string_h"
   },
   {
     "clangModuleMapPath" : "\/Library\/Developer\/CommandLineTools\/SDKs\/MacOSX27.0.sdk\/usr\/include\/DarwinFoundation2.modulemap",
-    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/sys_types-8HI0FHHMV87EI017FA0N17TCB.pcm",
+    "clangModulePath" : "\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/.build\/out\/SDKExplicitPrecompiledModules\/sys_types-DOOCCU3ZZEN8NGRD3H7PUYV4I.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "sys_types"

@@ -19,6 +19,20 @@
 
 ---
 
+## The idea
+
+Most video editors are either a timeline you push around by hand, or a "make me a video" button that gives you no control. Eclipse puts an assistant in front of a complete editor, so you get the speed of one and the control of the other:
+
+- **The assistant first.** Describe the film; it does the editing (see above).
+- **A complete manual editor underneath.** Multi-track timeline, trim, split, snap, keyframes, 47 transitions, 34 effects, 19 overlays, 27 title styles, 18 colour looks, music, voice-over, export.
+- **One shared set of controls.** Every edit, by you or by the assistant, is the same undoable command. Nothing the assistant does is hidden or locked in; you can step through it with undo, or take over mid-edit.
+- **Local first.** Your footage stays on your machine. An **Offline mode** keeps clips, frames and audio away from any AI service entirely: the assistant gets only the start and end times *you* mark.
+- **Native, not a webview.** Swift (AVFoundation, Core Image) on macOS, Kotlin and Jetpack Compose (Media3) on Android. No FFmpeg, no subscription, no account.
+
+<p align="center">
+  <img src="docs/screenshots/mac-editor.jpg" alt="Eclipse on macOS: media bin, preview, timeline and the AI assistant" width="900">
+</p>
+
 ## The AI Assistant: the heart of Eclipse
 
 The assistant is the main way to use Eclipse. You describe the film in plain words, and it does the editing: it watches your footage, decides which moments matter, cuts, grades, adds titles, joins, effects, overlays and music, then reviews its own work and tells you what it chose and why. Everything lands on the normal timeline, so you can undo any step or take over at any point.
@@ -65,20 +79,6 @@ The assistant is the main way to use Eclipse. You describe the film in plain wor
 - **macOS:** uses the Claude Code you already have installed and signed in to (no API key handled by Eclipse). Codex and OpenCode are supported experimentally.
 - **Android:** the assistant calls the Claude API directly with your own API key, using the same tools.
 - **Workspace folders:** open a folder and the assistant can browse and analyse what is inside, with file counts and sizes, and import only what it needs.
-
-## The idea
-
-Most video editors are either a timeline you push around by hand, or a "make me a video" button that gives you no control. Eclipse puts an assistant in front of a complete editor, so you get the speed of one and the control of the other:
-
-- **The assistant first.** Describe the film; it does the editing (see above).
-- **A complete manual editor underneath.** Multi-track timeline, trim, split, snap, keyframes, 47 transitions, 34 effects, 19 overlays, 27 title styles, 18 colour looks, music, voice-over, export.
-- **One shared set of controls.** Every edit, by you or by the assistant, is the same undoable command. Nothing the assistant does is hidden or locked in; you can step through it with undo, or take over mid-edit.
-- **Local first.** Your footage stays on your machine. An **Offline mode** keeps clips, frames and audio away from any AI service entirely: the assistant gets only the start and end times *you* mark.
-- **Native, not a webview.** Swift (AVFoundation, Core Image) on macOS, Kotlin and Jetpack Compose (Media3) on Android. No FFmpeg, no subscription, no account.
-
-<p align="center">
-  <img src="docs/screenshots/mac-editor.jpg" alt="Eclipse on macOS: media bin, preview, timeline and the AI assistant" width="900">
-</p>
 
 ## What you can do by hand
 
