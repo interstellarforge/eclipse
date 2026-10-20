@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/CoreChecks-primary.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/CoreChecks-primary.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/CoreChecks-primary.dia",
+    "emit-module-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/CoreChecks-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/CoreChecks-primary-emit-module.dia",
+    "pch" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/CoreChecks-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/CoreChecks-primary.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/CoreChecks/main.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/main.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/main.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/CoreChecks-p.build/Objects-normal/arm64/main.o"
+  }
+}

@@ -5,11 +5,11 @@
       "name" : "MovieMaker",
       "path" : "/Users/kees/Documents/prive/repos/movie-maker",
       "projects" : [
-        "ee6f71653447a554f4d44c8aeff95373ada97e8cf698e9bb986a9f22f7c26dba",
-        "8a5cbdb69659f56f4d0fd6933a1676d6369b21c6e6a5cae2df264dcc444e4386"
+        "df816be4cf310ff33de4cd0d732aa89ac0bea93cc3c11f1422761647e085b8b2",
+        "d52fb5d25217ee25c17b3bc52ec98ae06899b76e03b4ca0483729c7a13124092"
       ]
     },
-    "signature" : "cbf72abec0cc91eaefe87e8318325adc1e4b246bf007f636663a3f4d081e0aec",
+    "signature" : "4d1a8f917152d5daaa0735991fcb63b0a0345fc3cb81020d57e56b78d5506e1f",
     "type" : "workspace"
   },
   {
@@ -322,86 +322,30 @@
               {
                 "fileType" : "sourcecode.swift",
                 "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_0",
-                "name" : "AskGhostChecks.swift",
-                "path" : "AskGhostChecks.swift",
+                "name" : "Assistant.swift",
+                "path" : "Assistant.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               },
               {
                 "fileType" : "sourcecode.swift",
                 "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_1",
-                "name" : "Fixtures.swift",
-                "path" : "Fixtures.swift",
+                "name" : "AssistantRender.swift",
+                "path" : "AssistantRender.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               },
               {
                 "fileType" : "sourcecode.swift",
                 "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_2",
-                "name" : "Helpers.swift",
-                "path" : "Helpers.swift",
+                "name" : "Footage.swift",
+                "path" : "Footage.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               },
               {
                 "fileType" : "sourcecode.swift",
                 "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_3",
-                "name" : "MusicChecks.swift",
-                "path" : "MusicChecks.swift",
-                "sourceTree" : "<group>",
-                "type" : "file"
-              },
-              {
-                "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_4",
-                "name" : "OverlayTitleChecks.swift",
-                "path" : "OverlayTitleChecks.swift",
-                "sourceTree" : "<group>",
-                "type" : "file"
-              },
-              {
-                "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_5",
-                "name" : "Phase1Checks.swift",
-                "path" : "Phase1Checks.swift",
-                "sourceTree" : "<group>",
-                "type" : "file"
-              },
-              {
-                "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_6",
-                "name" : "RampMatchReframeChecks.swift",
-                "path" : "RampMatchReframeChecks.swift",
-                "sourceTree" : "<group>",
-                "type" : "file"
-              },
-              {
-                "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_7",
-                "name" : "TemplateChecks.swift",
-                "path" : "TemplateChecks.swift",
-                "sourceTree" : "<group>",
-                "type" : "file"
-              },
-              {
-                "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_8",
-                "name" : "ToolChecks.swift",
-                "path" : "ToolChecks.swift",
-                "sourceTree" : "<group>",
-                "type" : "file"
-              },
-              {
-                "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_9",
-                "name" : "TransitionChecks.swift",
-                "path" : "TransitionChecks.swift",
-                "sourceTree" : "<group>",
-                "type" : "file"
-              },
-              {
-                "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_10",
                 "name" : "main.swift",
                 "path" : "main.swift",
                 "sourceTree" : "<group>",
@@ -409,6 +353,103 @@
               }
             ],
             "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_3",
+            "name" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/ReadmeMedia",
+            "path" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/ReadmeMedia",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_0",
+                "name" : "AskGhostChecks.swift",
+                "path" : "AskGhostChecks.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_1",
+                "name" : "Fixtures.swift",
+                "path" : "Fixtures.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_2",
+                "name" : "Helpers.swift",
+                "path" : "Helpers.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_3",
+                "name" : "MusicChecks.swift",
+                "path" : "MusicChecks.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_4",
+                "name" : "OverlayTitleChecks.swift",
+                "path" : "OverlayTitleChecks.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_5",
+                "name" : "Phase1Checks.swift",
+                "path" : "Phase1Checks.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_6",
+                "name" : "RampMatchReframeChecks.swift",
+                "path" : "RampMatchReframeChecks.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_7",
+                "name" : "TemplateChecks.swift",
+                "path" : "TemplateChecks.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_8",
+                "name" : "ToolChecks.swift",
+                "path" : "ToolChecks.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_9",
+                "name" : "TransitionChecks.swift",
+                "path" : "TransitionChecks.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_10",
+                "name" : "main.swift",
+                "path" : "main.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4",
             "name" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/NewChecks",
             "path" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/NewChecks",
             "sourceTree" : "<absolute>",
@@ -418,14 +459,14 @@
             "children" : [
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_0",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_0",
                 "name" : "main.swift",
                 "path" : "main.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               }
             ],
-            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_4",
+            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5",
             "name" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/CoreChecks",
             "path" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/CoreChecks",
             "sourceTree" : "<absolute>",
@@ -435,7 +476,7 @@
             "children" : [
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_0",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_0",
                 "name" : "App.swift",
                 "path" : "App.swift",
                 "sourceTree" : "<group>",
@@ -443,7 +484,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_1",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_1",
                 "name" : "AppModel.swift",
                 "path" : "AppModel.swift",
                 "sourceTree" : "<group>",
@@ -451,7 +492,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_2",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_2",
                 "name" : "ChatModel.swift",
                 "path" : "ChatModel.swift",
                 "sourceTree" : "<group>",
@@ -459,7 +500,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_3",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_3",
                 "name" : "ChatView.swift",
                 "path" : "ChatView.swift",
                 "sourceTree" : "<group>",
@@ -467,7 +508,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_4",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_4",
                 "name" : "ContentView.swift",
                 "path" : "ContentView.swift",
                 "sourceTree" : "<group>",
@@ -475,7 +516,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_5",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_5",
                 "name" : "EditorTimeline.swift",
                 "path" : "EditorTimeline.swift",
                 "sourceTree" : "<group>",
@@ -483,7 +524,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_6",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_6",
                 "name" : "ExportSheet.swift",
                 "path" : "ExportSheet.swift",
                 "sourceTree" : "<group>",
@@ -491,7 +532,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_7",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_7",
                 "name" : "LeftPanel.swift",
                 "path" : "LeftPanel.swift",
                 "sourceTree" : "<group>",
@@ -499,7 +540,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_8",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_8",
                 "name" : "PromptLibrary.swift",
                 "path" : "PromptLibrary.swift",
                 "sourceTree" : "<group>",
@@ -507,7 +548,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_9",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_9",
                 "name" : "RightPanel.swift",
                 "path" : "RightPanel.swift",
                 "sourceTree" : "<group>",
@@ -515,7 +556,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_10",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_10",
                 "name" : "Sheets.swift",
                 "path" : "Sheets.swift",
                 "sourceTree" : "<group>",
@@ -523,7 +564,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_11",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_11",
                 "name" : "SnapshotMode.swift",
                 "path" : "SnapshotMode.swift",
                 "sourceTree" : "<group>",
@@ -531,7 +572,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_12",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_12",
                 "name" : "SoundSearchModel.swift",
                 "path" : "SoundSearchModel.swift",
                 "sourceTree" : "<group>",
@@ -539,14 +580,14 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_13",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_13",
                 "name" : "Theme.swift",
                 "path" : "Theme.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               }
             ],
-            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_5",
+            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6",
             "name" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieMaker",
             "path" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieMaker",
             "sourceTree" : "<absolute>",
@@ -556,7 +597,48 @@
             "children" : [
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_0",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_0",
+                "name" : "Assistant.swift",
+                "path" : "Assistant.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_1",
+                "name" : "AssistantRender.swift",
+                "path" : "AssistantRender.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_2",
+                "name" : "Footage.swift",
+                "path" : "Footage.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_3",
+                "name" : "main.swift",
+                "path" : "main.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_7",
+            "name" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/ReadmeMedia",
+            "path" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/ReadmeMedia",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_0",
                 "name" : "AskGhostChecks.swift",
                 "path" : "AskGhostChecks.swift",
                 "sourceTree" : "<group>",
@@ -564,7 +646,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_1",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_1",
                 "name" : "Fixtures.swift",
                 "path" : "Fixtures.swift",
                 "sourceTree" : "<group>",
@@ -572,7 +654,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_2",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_2",
                 "name" : "Helpers.swift",
                 "path" : "Helpers.swift",
                 "sourceTree" : "<group>",
@@ -580,7 +662,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_3",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_3",
                 "name" : "MusicChecks.swift",
                 "path" : "MusicChecks.swift",
                 "sourceTree" : "<group>",
@@ -588,7 +670,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_4",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_4",
                 "name" : "OverlayTitleChecks.swift",
                 "path" : "OverlayTitleChecks.swift",
                 "sourceTree" : "<group>",
@@ -596,7 +678,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_5",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_5",
                 "name" : "Phase1Checks.swift",
                 "path" : "Phase1Checks.swift",
                 "sourceTree" : "<group>",
@@ -604,7 +686,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_6",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_6",
                 "name" : "RampMatchReframeChecks.swift",
                 "path" : "RampMatchReframeChecks.swift",
                 "sourceTree" : "<group>",
@@ -612,7 +694,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_7",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_7",
                 "name" : "TemplateChecks.swift",
                 "path" : "TemplateChecks.swift",
                 "sourceTree" : "<group>",
@@ -620,7 +702,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_8",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_8",
                 "name" : "ToolChecks.swift",
                 "path" : "ToolChecks.swift",
                 "sourceTree" : "<group>",
@@ -628,7 +710,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_9",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_9",
                 "name" : "TransitionChecks.swift",
                 "path" : "TransitionChecks.swift",
                 "sourceTree" : "<group>",
@@ -636,14 +718,14 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_10",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_10",
                 "name" : "main.swift",
                 "path" : "main.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               }
             ],
-            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_6",
+            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8",
             "name" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/NewChecks",
             "path" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/NewChecks",
             "sourceTree" : "<absolute>",
@@ -653,14 +735,14 @@
             "children" : [
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_0",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_0",
                 "name" : "main.swift",
                 "path" : "main.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               }
             ],
-            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_7",
+            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9",
             "name" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/CoreChecks",
             "path" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/CoreChecks",
             "sourceTree" : "<absolute>",
@@ -670,7 +752,7 @@
             "children" : [
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_0",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_0",
                 "name" : "Agents.swift",
                 "path" : "Agents.swift",
                 "sourceTree" : "<group>",
@@ -678,7 +760,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_1",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_1",
                 "name" : "Analysis.swift",
                 "path" : "Analysis.swift",
                 "sourceTree" : "<group>",
@@ -686,7 +768,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_2",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_2",
                 "name" : "AssetInfo.swift",
                 "path" : "AssetInfo.swift",
                 "sourceTree" : "<group>",
@@ -694,7 +776,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_3",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_3",
                 "name" : "AudioTools.swift",
                 "path" : "AudioTools.swift",
                 "sourceTree" : "<group>",
@@ -702,7 +784,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_4",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_4",
                 "name" : "AutoMovie.swift",
                 "path" : "AutoMovie.swift",
                 "sourceTree" : "<group>",
@@ -710,7 +792,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_5",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_5",
                 "name" : "ClaudeRunner.swift",
                 "path" : "ClaudeRunner.swift",
                 "sourceTree" : "<group>",
@@ -718,7 +800,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_6",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_6",
                 "name" : "Commands.swift",
                 "path" : "Commands.swift",
                 "sourceTree" : "<group>",
@@ -726,7 +808,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_7",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_7",
                 "name" : "Compositor.swift",
                 "path" : "Compositor.swift",
                 "sourceTree" : "<group>",
@@ -734,7 +816,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_8",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_8",
                 "name" : "EditPlan.swift",
                 "path" : "EditPlan.swift",
                 "sourceTree" : "<group>",
@@ -742,7 +824,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_9",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_9",
                 "name" : "EffectRenderer.swift",
                 "path" : "EffectRenderer.swift",
                 "sourceTree" : "<group>",
@@ -750,7 +832,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_10",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_10",
                 "name" : "Export.swift",
                 "path" : "Export.swift",
                 "sourceTree" : "<group>",
@@ -758,7 +840,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_11",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_11",
                 "name" : "GeneratorRenderer.swift",
                 "path" : "GeneratorRenderer.swift",
                 "sourceTree" : "<group>",
@@ -766,7 +848,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_12",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_12",
                 "name" : "LookRenderer.swift",
                 "path" : "LookRenderer.swift",
                 "sourceTree" : "<group>",
@@ -774,7 +856,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_13",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_13",
                 "name" : "MCP.swift",
                 "path" : "MCP.swift",
                 "sourceTree" : "<group>",
@@ -782,7 +864,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_14",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_14",
                 "name" : "MCPTools.swift",
                 "path" : "MCPTools.swift",
                 "sourceTree" : "<group>",
@@ -790,7 +872,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_15",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_15",
                 "name" : "MatchCuts.swift",
                 "path" : "MatchCuts.swift",
                 "sourceTree" : "<group>",
@@ -798,7 +880,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_16",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_16",
                 "name" : "Media.swift",
                 "path" : "Media.swift",
                 "sourceTree" : "<group>",
@@ -806,7 +888,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_17",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_17",
                 "name" : "Model.swift",
                 "path" : "Model.swift",
                 "sourceTree" : "<group>",
@@ -814,7 +896,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_18",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_18",
                 "name" : "MusicLibrary.swift",
                 "path" : "MusicLibrary.swift",
                 "sourceTree" : "<group>",
@@ -822,7 +904,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_19",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_19",
                 "name" : "OnlineLibrary.swift",
                 "path" : "OnlineLibrary.swift",
                 "sourceTree" : "<group>",
@@ -830,7 +912,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_20",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_20",
                 "name" : "Operations.swift",
                 "path" : "Operations.swift",
                 "sourceTree" : "<group>",
@@ -838,7 +920,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_21",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_21",
                 "name" : "Persistence.swift",
                 "path" : "Persistence.swift",
                 "sourceTree" : "<group>",
@@ -846,7 +928,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_22",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_22",
                 "name" : "Privacy.swift",
                 "path" : "Privacy.swift",
                 "sourceTree" : "<group>",
@@ -854,7 +936,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_23",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_23",
                 "name" : "ScriptMode.swift",
                 "path" : "ScriptMode.swift",
                 "sourceTree" : "<group>",
@@ -862,7 +944,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_24",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_24",
                 "name" : "SkillContent.swift",
                 "path" : "SkillContent.swift",
                 "sourceTree" : "<group>",
@@ -870,7 +952,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_25",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_25",
                 "name" : "Skills.swift",
                 "path" : "Skills.swift",
                 "sourceTree" : "<group>",
@@ -878,7 +960,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_26",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_26",
                 "name" : "SmartReframe.swift",
                 "path" : "SmartReframe.swift",
                 "sourceTree" : "<group>",
@@ -886,7 +968,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_27",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_27",
                 "name" : "Snap.swift",
                 "path" : "Snap.swift",
                 "sourceTree" : "<group>",
@@ -894,7 +976,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_28",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_28",
                 "name" : "SoundEffects.swift",
                 "path" : "SoundEffects.swift",
                 "sourceTree" : "<group>",
@@ -902,7 +984,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_29",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_29",
                 "name" : "Stills.swift",
                 "path" : "Stills.swift",
                 "sourceTree" : "<group>",
@@ -910,7 +992,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_30",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_30",
                 "name" : "Templates.swift",
                 "path" : "Templates.swift",
                 "sourceTree" : "<group>",
@@ -918,7 +1000,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_31",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_31",
                 "name" : "TransitionRenderer.swift",
                 "path" : "TransitionRenderer.swift",
                 "sourceTree" : "<group>",
@@ -926,7 +1008,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_32",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_32",
                 "name" : "Treatments.swift",
                 "path" : "Treatments.swift",
                 "sourceTree" : "<group>",
@@ -934,7 +1016,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_33",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_33",
                 "name" : "Vision.swift",
                 "path" : "Vision.swift",
                 "sourceTree" : "<group>",
@@ -942,14 +1024,14 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_34",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_34",
                 "name" : "Workspace.swift",
                 "path" : "Workspace.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               }
             ],
-            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_8",
+            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_10",
             "name" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore",
             "path" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore",
             "sourceTree" : "<absolute>",
@@ -959,7 +1041,7 @@
             "children" : [
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_0",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_0",
                 "name" : "Agents.swift",
                 "path" : "Agents.swift",
                 "sourceTree" : "<group>",
@@ -967,7 +1049,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_1",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_1",
                 "name" : "Analysis.swift",
                 "path" : "Analysis.swift",
                 "sourceTree" : "<group>",
@@ -975,7 +1057,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_2",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_2",
                 "name" : "AssetInfo.swift",
                 "path" : "AssetInfo.swift",
                 "sourceTree" : "<group>",
@@ -983,7 +1065,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_3",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_3",
                 "name" : "AudioTools.swift",
                 "path" : "AudioTools.swift",
                 "sourceTree" : "<group>",
@@ -991,7 +1073,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_4",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_4",
                 "name" : "AutoMovie.swift",
                 "path" : "AutoMovie.swift",
                 "sourceTree" : "<group>",
@@ -999,7 +1081,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_5",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_5",
                 "name" : "ClaudeRunner.swift",
                 "path" : "ClaudeRunner.swift",
                 "sourceTree" : "<group>",
@@ -1007,7 +1089,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_6",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_6",
                 "name" : "Commands.swift",
                 "path" : "Commands.swift",
                 "sourceTree" : "<group>",
@@ -1015,7 +1097,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_7",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_7",
                 "name" : "Compositor.swift",
                 "path" : "Compositor.swift",
                 "sourceTree" : "<group>",
@@ -1023,7 +1105,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_8",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_8",
                 "name" : "EditPlan.swift",
                 "path" : "EditPlan.swift",
                 "sourceTree" : "<group>",
@@ -1031,7 +1113,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_9",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_9",
                 "name" : "EffectRenderer.swift",
                 "path" : "EffectRenderer.swift",
                 "sourceTree" : "<group>",
@@ -1039,7 +1121,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_10",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_10",
                 "name" : "Export.swift",
                 "path" : "Export.swift",
                 "sourceTree" : "<group>",
@@ -1047,7 +1129,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_11",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_11",
                 "name" : "GeneratorRenderer.swift",
                 "path" : "GeneratorRenderer.swift",
                 "sourceTree" : "<group>",
@@ -1055,7 +1137,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_12",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_12",
                 "name" : "LookRenderer.swift",
                 "path" : "LookRenderer.swift",
                 "sourceTree" : "<group>",
@@ -1063,7 +1145,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_13",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_13",
                 "name" : "MCP.swift",
                 "path" : "MCP.swift",
                 "sourceTree" : "<group>",
@@ -1071,7 +1153,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_14",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_14",
                 "name" : "MCPTools.swift",
                 "path" : "MCPTools.swift",
                 "sourceTree" : "<group>",
@@ -1079,7 +1161,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_15",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_15",
                 "name" : "MatchCuts.swift",
                 "path" : "MatchCuts.swift",
                 "sourceTree" : "<group>",
@@ -1087,7 +1169,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_16",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_16",
                 "name" : "Media.swift",
                 "path" : "Media.swift",
                 "sourceTree" : "<group>",
@@ -1095,7 +1177,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_17",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_17",
                 "name" : "Model.swift",
                 "path" : "Model.swift",
                 "sourceTree" : "<group>",
@@ -1103,7 +1185,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_18",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_18",
                 "name" : "MusicLibrary.swift",
                 "path" : "MusicLibrary.swift",
                 "sourceTree" : "<group>",
@@ -1111,7 +1193,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_19",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_19",
                 "name" : "OnlineLibrary.swift",
                 "path" : "OnlineLibrary.swift",
                 "sourceTree" : "<group>",
@@ -1119,7 +1201,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_20",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_20",
                 "name" : "Operations.swift",
                 "path" : "Operations.swift",
                 "sourceTree" : "<group>",
@@ -1127,7 +1209,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_21",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_21",
                 "name" : "Persistence.swift",
                 "path" : "Persistence.swift",
                 "sourceTree" : "<group>",
@@ -1135,7 +1217,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_22",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_22",
                 "name" : "Privacy.swift",
                 "path" : "Privacy.swift",
                 "sourceTree" : "<group>",
@@ -1143,7 +1225,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_23",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_23",
                 "name" : "ScriptMode.swift",
                 "path" : "ScriptMode.swift",
                 "sourceTree" : "<group>",
@@ -1151,7 +1233,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_24",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_24",
                 "name" : "SkillContent.swift",
                 "path" : "SkillContent.swift",
                 "sourceTree" : "<group>",
@@ -1159,7 +1241,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_25",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_25",
                 "name" : "Skills.swift",
                 "path" : "Skills.swift",
                 "sourceTree" : "<group>",
@@ -1167,7 +1249,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_26",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_26",
                 "name" : "SmartReframe.swift",
                 "path" : "SmartReframe.swift",
                 "sourceTree" : "<group>",
@@ -1175,7 +1257,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_27",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_27",
                 "name" : "Snap.swift",
                 "path" : "Snap.swift",
                 "sourceTree" : "<group>",
@@ -1183,7 +1265,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_28",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_28",
                 "name" : "SoundEffects.swift",
                 "path" : "SoundEffects.swift",
                 "sourceTree" : "<group>",
@@ -1191,7 +1273,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_29",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_29",
                 "name" : "Stills.swift",
                 "path" : "Stills.swift",
                 "sourceTree" : "<group>",
@@ -1199,7 +1281,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_30",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_30",
                 "name" : "Templates.swift",
                 "path" : "Templates.swift",
                 "sourceTree" : "<group>",
@@ -1207,7 +1289,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_31",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_31",
                 "name" : "TransitionRenderer.swift",
                 "path" : "TransitionRenderer.swift",
                 "sourceTree" : "<group>",
@@ -1215,7 +1297,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_32",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_32",
                 "name" : "Treatments.swift",
                 "path" : "Treatments.swift",
                 "sourceTree" : "<group>",
@@ -1223,7 +1305,7 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_33",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_33",
                 "name" : "Vision.swift",
                 "path" : "Vision.swift",
                 "sourceTree" : "<group>",
@@ -1231,14 +1313,14 @@
               },
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_34",
+                "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_34",
                 "name" : "Workspace.swift",
                 "path" : "Workspace.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               }
             ],
-            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_9",
+            "guid" : "PACKAGE:movie-maker::MAINGROUP::REF_11",
             "name" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore",
             "path" : "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore",
             "sourceTree" : "<absolute>",
@@ -1258,17 +1340,19 @@
       "projectName" : "MovieMaker",
       "targets" : [
         "0295356cf6b7b3bf374d5f846c475f5916ecf41891f632d4c9afab94a5d54096",
-        "518299e3c50d1408ea187ff4dcb91d6c0eaf548ff164afa335a5ae06f276b4bf",
-        "f394df9064ad72a2e172ae643ef8ea5fbdb29533fb87082e22b68b30bf43e82f",
-        "78c712e83868f3b3c919605516ef60bc208211ee76cf427fc7c143d3b66a5cc5",
-        "69ead3ce268803f0f76137fee1bbae926f088b0279be3874deaea522fae70038",
-        "169d0812959804fbde1448b57ffc3ae46db83a93e2379f4e4d2cc2c3f6ccc8bd",
-        "93e775e446018c7833b1f6b16fb0fc6831269206817ec997b18e26efcb461234",
-        "da322c90ff62ac4b7ada7ed54fc53af3b25fd43644635fc5ebfaf32f6dcc550a",
+        "7a85516339a4a9f3bb653830530fe7de8742eed443324eca88890c2c834cd19b",
+        "9ed2ecebfdaba6311164c3c5641a792ad8a64edfb25fa45d16936ae1e6e53340",
+        "707ea17f0342dded5cd69aeaf23b2004777cfb73ebaf54e341bd4ffe95a4dcff",
+        "c825f75604297a7e2f7a40e4b00d19ef2fa0e3f75fb0ce502f3a9930c06fc7de",
+        "81c216c980b6213f019db747db75354395f440ffdae79b19d5afca7f27ea542f",
+        "c8cc7f29ade21acdc1946f322ac0a662ed474377812cd17edc9217e15fa568f8",
+        "044927b4b3418de92e1c171bbeb1ca68fd005d58e8fc321e549f6269e19a0b83",
+        "80aaf711f6d500a3a4001320fd91dc99dd1ed1f765958d963ff6acf3e2a0aec6",
+        "1427afa67442ea13aef623459adf9e4fd624597a47479e468c66340765645771",
         "1106bc215bb01e20cc4d253890fd377928ba1b1cab71703fc974e5a646bdf4a9"
       ]
     },
-    "signature" : "ee6f71653447a554f4d44c8aeff95373ada97e8cf698e9bb986a9f22f7c26dba",
+    "signature" : "df816be4cf310ff33de4cd0d732aa89ac0bea93cc3c11f1422761647e085b8b2",
     "type" : "project"
   },
   {
@@ -1565,6 +1649,189 @@
               "-Xfrontend",
               "-entry-point-function-name",
               "-Xfrontend",
+              "ReadmeMedia_main"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "movie-maker.ReadmeMedia",
+            "PRODUCT_MODULE_NAME" : "ReadmeMedia",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "YES",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_INSTALL_MODULE" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "NO",
+            "SWIFT_PACKAGE_NAME" : "movie_maker",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ReadmeMedia.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ReadmeMedia.symbolgraphs",
+            "TARGET_NAME" : "ReadmeMedia",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "MACOSX_DEPLOYMENT_TARGET" : "15.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "$(OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_$(ENABLE_LIBFUZZER))"
+            ],
+            "OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_YES" : [
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "ReadmeMedia_main"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "movie-maker.ReadmeMedia",
+            "PRODUCT_MODULE_NAME" : "ReadmeMedia",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "YES",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_INSTALL_MODULE" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "NO",
+            "SWIFT_PACKAGE_NAME" : "movie_maker",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ReadmeMedia.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ReadmeMedia.symbolgraphs",
+            "TARGET_NAME" : "ReadmeMedia",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_0",
+              "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_1",
+              "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_2",
+              "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_3",
+              "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:MovieCore"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.frameworks"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:MovieCore",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia",
+      "name" : "ReadmeMedia-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.tool",
+      "type" : "standard"
+    },
+    "signature" : "7a85516339a4a9f3bb653830530fe7de8742eed443324eca88890c2c834cd19b",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "MACOSX_DEPLOYMENT_TARGET" : "15.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "$(OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_$(ENABLE_LIBFUZZER))"
+            ],
+            "OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_YES" : [
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
               "NewChecks_main"
             ],
             "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
@@ -1648,7 +1915,7 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_0",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_0",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::0",
               "platformFilters" : [
 
@@ -1657,7 +1924,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_1",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_1",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::1",
               "platformFilters" : [
 
@@ -1666,7 +1933,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_2",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_2",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::2",
               "platformFilters" : [
 
@@ -1675,7 +1942,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_3",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_3",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::3",
               "platformFilters" : [
 
@@ -1684,7 +1951,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_4",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_4",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::4",
               "platformFilters" : [
 
@@ -1693,7 +1960,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_5",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_5",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::5",
               "platformFilters" : [
 
@@ -1702,7 +1969,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_6",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_6",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::6",
               "platformFilters" : [
 
@@ -1711,7 +1978,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_7",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_7",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::7",
               "platformFilters" : [
 
@@ -1720,7 +1987,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_8",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_8",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::8",
               "platformFilters" : [
 
@@ -1729,7 +1996,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_9",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_9",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::9",
               "platformFilters" : [
 
@@ -1738,7 +2005,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_3::REF_10",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_10",
               "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks::BUILDPHASE_0::10",
               "platformFilters" : [
 
@@ -1787,7 +2054,7 @@
       "productTypeIdentifier" : "com.apple.product-type.tool",
       "type" : "standard"
     },
-    "signature" : "518299e3c50d1408ea187ff4dcb91d6c0eaf548ff164afa335a5ae06f276b4bf",
+    "signature" : "9ed2ecebfdaba6311164c3c5641a792ad8a64edfb25fa45d16936ae1e6e53340",
     "type" : "target"
   },
   {
@@ -1894,7 +2161,7 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_4::REF_0",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_0",
               "guid" : "PACKAGE-PRODUCT:movie-maker_CoreChecks.CoreChecks::BUILDPHASE_0::0",
               "platformFilters" : [
 
@@ -1943,7 +2210,7 @@
       "productTypeIdentifier" : "com.apple.product-type.tool",
       "type" : "standard"
     },
-    "signature" : "f394df9064ad72a2e172ae643ef8ea5fbdb29533fb87082e22b68b30bf43e82f",
+    "signature" : "707ea17f0342dded5cd69aeaf23b2004777cfb73ebaf54e341bd4ffe95a4dcff",
     "type" : "target"
   },
   {
@@ -2081,7 +2348,7 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_0",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_0",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::0",
               "platformFilters" : [
 
@@ -2090,7 +2357,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_1",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_1",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::1",
               "platformFilters" : [
 
@@ -2099,7 +2366,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_2",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_2",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::2",
               "platformFilters" : [
 
@@ -2108,7 +2375,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_3",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_3",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::3",
               "platformFilters" : [
 
@@ -2117,7 +2384,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_4",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_4",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::4",
               "platformFilters" : [
 
@@ -2126,7 +2393,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_5",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_5",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::5",
               "platformFilters" : [
 
@@ -2135,7 +2402,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_6",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_6",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::6",
               "platformFilters" : [
 
@@ -2144,7 +2411,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_7",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_7",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::7",
               "platformFilters" : [
 
@@ -2153,7 +2420,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_8",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_8",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::8",
               "platformFilters" : [
 
@@ -2162,7 +2429,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_9",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_9",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::9",
               "platformFilters" : [
 
@@ -2171,7 +2438,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_10",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_10",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::10",
               "platformFilters" : [
 
@@ -2180,7 +2447,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_11",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_11",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::11",
               "platformFilters" : [
 
@@ -2189,7 +2456,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_12",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_12",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::12",
               "platformFilters" : [
 
@@ -2198,7 +2465,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_5::REF_13",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_13",
               "guid" : "PACKAGE-TARGET:MovieMaker--3CDE5533FBD14806-testable::BUILDPHASE_0::13",
               "platformFilters" : [
 
@@ -2234,7 +2501,208 @@
       "productTypeIdentifier" : "org.swift.product-type.common.object",
       "type" : "standard"
     },
-    "signature" : "78c712e83868f3b3c919605516ef60bc208211ee76cf427fc7c143d3b66a5cc5",
+    "signature" : "c825f75604297a7e2f7a40e4b00d19ef2fa0e3f75fb0ce502f3a9930c06fc7de",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module ReadmeMedia {\nheader \"ReadmeMedia-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ReadmeMedia.modulemap",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "ReadmeMedia_main"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "movie-maker.ReadmeMedia",
+            "PRODUCT_MODULE_NAME" : "ReadmeMedia",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "YES",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "ReadmeMedia-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "movie_maker",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ReadmeMedia.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "ReadmeMedia",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ReadmeMedia.symbolgraphs",
+            "TARGET_BUILD_DIR" : "$(TARGET_BUILD_DIR)/ExecutableModules",
+            "TARGET_NAME" : "ReadmeMedia-2C0EB1DD8E7FE539-testable",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ReadmeMedia-2C0EB1DD8E7FE539-testable::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "LIBRARY_SEARCH_PATHS[__platform_filter=windows-msvc]" : [
+                "$(inherited)",
+                "$(TARGET_BUILD_DIR)/ExecutableModules"
+              ],
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ReadmeMedia.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module ReadmeMedia {\nheader \"ReadmeMedia-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ReadmeMedia.modulemap",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "ReadmeMedia_main"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "movie-maker.ReadmeMedia",
+            "PRODUCT_MODULE_NAME" : "ReadmeMedia",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "YES",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "ReadmeMedia-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "movie_maker",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ReadmeMedia.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "ReadmeMedia",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ReadmeMedia.symbolgraphs",
+            "TARGET_BUILD_DIR" : "$(TARGET_BUILD_DIR)/ExecutableModules",
+            "TARGET_NAME" : "ReadmeMedia-2C0EB1DD8E7FE539-testable",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:ReadmeMedia-2C0EB1DD8E7FE539-testable::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "LIBRARY_SEARCH_PATHS[__platform_filter=windows-msvc]" : [
+                "$(inherited)",
+                "$(TARGET_BUILD_DIR)/ExecutableModules"
+              ],
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ReadmeMedia.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_0",
+              "guid" : "PACKAGE-TARGET:ReadmeMedia-2C0EB1DD8E7FE539-testable::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_1",
+              "guid" : "PACKAGE-TARGET:ReadmeMedia-2C0EB1DD8E7FE539-testable::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_2",
+              "guid" : "PACKAGE-TARGET:ReadmeMedia-2C0EB1DD8E7FE539-testable::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_3",
+              "guid" : "PACKAGE-TARGET:ReadmeMedia-2C0EB1DD8E7FE539-testable::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:ReadmeMedia-2C0EB1DD8E7FE539-testable::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:MovieCore",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-TARGET:ReadmeMedia-2C0EB1DD8E7FE539-testable",
+      "name" : "ReadmeMedia",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:ReadmeMedia-2C0EB1DD8E7FE539-testable",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "org.swift.product-type.common.object",
+      "type" : "standard"
+    },
+    "signature" : "81c216c980b6213f019db747db75354395f440ffdae79b19d5afca7f27ea542f",
     "type" : "target"
   },
   {
@@ -2372,7 +2840,7 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_0",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_0",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::0",
               "platformFilters" : [
 
@@ -2381,7 +2849,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_1",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_1",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::1",
               "platformFilters" : [
 
@@ -2390,7 +2858,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_2",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_2",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::2",
               "platformFilters" : [
 
@@ -2399,7 +2867,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_3",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_3",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::3",
               "platformFilters" : [
 
@@ -2408,7 +2876,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_4",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_4",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::4",
               "platformFilters" : [
 
@@ -2417,7 +2885,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_5",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_5",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::5",
               "platformFilters" : [
 
@@ -2426,7 +2894,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_6",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_6",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::6",
               "platformFilters" : [
 
@@ -2435,7 +2903,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_7",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_7",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::7",
               "platformFilters" : [
 
@@ -2444,7 +2912,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_8",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_8",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::8",
               "platformFilters" : [
 
@@ -2453,7 +2921,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_9",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_9",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::9",
               "platformFilters" : [
 
@@ -2462,7 +2930,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_6::REF_10",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_10",
               "guid" : "PACKAGE-TARGET:NewChecks-1CC6F4B558FCA884-testable::BUILDPHASE_0::10",
               "platformFilters" : [
 
@@ -2498,7 +2966,7 @@
       "productTypeIdentifier" : "org.swift.product-type.common.object",
       "type" : "standard"
     },
-    "signature" : "69ead3ce268803f0f76137fee1bbae926f088b0279be3874deaea522fae70038",
+    "signature" : "c8cc7f29ade21acdc1946f322ac0a662ed474377812cd17edc9217e15fa568f8",
     "type" : "target"
   },
   {
@@ -2636,7 +3104,7 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_7::REF_0",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_0",
               "guid" : "PACKAGE-TARGET:CoreChecks--28C06794A1A06A1C-testable::BUILDPHASE_0::0",
               "platformFilters" : [
 
@@ -2672,7 +3140,7 @@
       "productTypeIdentifier" : "org.swift.product-type.common.object",
       "type" : "standard"
     },
-    "signature" : "169d0812959804fbde1448b57ffc3ae46db83a93e2379f4e4d2cc2c3f6ccc8bd",
+    "signature" : "044927b4b3418de92e1c171bbeb1ca68fd005d58e8fc321e549f6269e19a0b83",
     "type" : "target"
   },
   {
@@ -2790,7 +3258,7 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_0",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_0",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::0",
               "platformFilters" : [
 
@@ -2799,7 +3267,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_1",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_1",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::1",
               "platformFilters" : [
 
@@ -2808,7 +3276,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_2",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_2",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::2",
               "platformFilters" : [
 
@@ -2817,7 +3285,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_3",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_3",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::3",
               "platformFilters" : [
 
@@ -2826,7 +3294,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_4",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_4",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::4",
               "platformFilters" : [
 
@@ -2835,7 +3303,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_5",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_5",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::5",
               "platformFilters" : [
 
@@ -2844,7 +3312,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_6",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_6",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::6",
               "platformFilters" : [
 
@@ -2853,7 +3321,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_7",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_7",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::7",
               "platformFilters" : [
 
@@ -2862,7 +3330,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_8",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_8",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::8",
               "platformFilters" : [
 
@@ -2871,7 +3339,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_9",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_9",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::9",
               "platformFilters" : [
 
@@ -2880,7 +3348,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_10",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_10",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::10",
               "platformFilters" : [
 
@@ -2889,7 +3357,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_11",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_11",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::11",
               "platformFilters" : [
 
@@ -2898,7 +3366,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_12",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_12",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::12",
               "platformFilters" : [
 
@@ -2907,7 +3375,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_13",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_13",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::13",
               "platformFilters" : [
 
@@ -2916,7 +3384,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_14",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_14",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::14",
               "platformFilters" : [
 
@@ -2925,7 +3393,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_15",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_15",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::15",
               "platformFilters" : [
 
@@ -2934,7 +3402,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_16",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_16",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::16",
               "platformFilters" : [
 
@@ -2943,7 +3411,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_17",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_17",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::17",
               "platformFilters" : [
 
@@ -2952,7 +3420,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_18",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_18",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::18",
               "platformFilters" : [
 
@@ -2961,7 +3429,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_19",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_19",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::19",
               "platformFilters" : [
 
@@ -2970,7 +3438,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_20",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_20",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::20",
               "platformFilters" : [
 
@@ -2979,7 +3447,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_21",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_21",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::21",
               "platformFilters" : [
 
@@ -2988,7 +3456,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_22",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_22",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::22",
               "platformFilters" : [
 
@@ -2997,7 +3465,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_23",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_23",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::23",
               "platformFilters" : [
 
@@ -3006,7 +3474,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_24",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_24",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::24",
               "platformFilters" : [
 
@@ -3015,7 +3483,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_25",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_25",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::25",
               "platformFilters" : [
 
@@ -3024,7 +3492,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_26",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_26",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::26",
               "platformFilters" : [
 
@@ -3033,7 +3501,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_27",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_27",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::27",
               "platformFilters" : [
 
@@ -3042,7 +3510,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_28",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_28",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::28",
               "platformFilters" : [
 
@@ -3051,7 +3519,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_29",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_29",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::29",
               "platformFilters" : [
 
@@ -3060,7 +3528,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_30",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_30",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::30",
               "platformFilters" : [
 
@@ -3069,7 +3537,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_31",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_31",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::31",
               "platformFilters" : [
 
@@ -3078,7 +3546,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_32",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_32",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::32",
               "platformFilters" : [
 
@@ -3087,7 +3555,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_33",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_33",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::33",
               "platformFilters" : [
 
@@ -3096,7 +3564,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_8::REF_34",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_10::REF_34",
               "guid" : "PACKAGE-TARGET:MovieCore::BUILDPHASE_0::34",
               "platformFilters" : [
 
@@ -3128,7 +3596,7 @@
       "productTypeIdentifier" : "org.swift.product-type.library.static",
       "type" : "standard"
     },
-    "signature" : "93e775e446018c7833b1f6b16fb0fc6831269206817ec997b18e26efcb461234",
+    "signature" : "80aaf711f6d500a3a4001320fd91dc99dd1ed1f765958d963ff6acf3e2a0aec6",
     "type" : "target"
   },
   {
@@ -3291,7 +3759,7 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_0",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_0",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::0",
               "platformFilters" : [
 
@@ -3300,7 +3768,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_1",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_1",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::1",
               "platformFilters" : [
 
@@ -3309,7 +3777,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_2",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_2",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::2",
               "platformFilters" : [
 
@@ -3318,7 +3786,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_3",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_3",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::3",
               "platformFilters" : [
 
@@ -3327,7 +3795,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_4",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_4",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::4",
               "platformFilters" : [
 
@@ -3336,7 +3804,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_5",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_5",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::5",
               "platformFilters" : [
 
@@ -3345,7 +3813,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_6",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_6",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::6",
               "platformFilters" : [
 
@@ -3354,7 +3822,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_7",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_7",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::7",
               "platformFilters" : [
 
@@ -3363,7 +3831,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_8",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_8",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::8",
               "platformFilters" : [
 
@@ -3372,7 +3840,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_9",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_9",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::9",
               "platformFilters" : [
 
@@ -3381,7 +3849,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_10",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_10",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::10",
               "platformFilters" : [
 
@@ -3390,7 +3858,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_11",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_11",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::11",
               "platformFilters" : [
 
@@ -3399,7 +3867,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_12",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_12",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::12",
               "platformFilters" : [
 
@@ -3408,7 +3876,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_13",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_13",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::13",
               "platformFilters" : [
 
@@ -3417,7 +3885,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_14",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_14",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::14",
               "platformFilters" : [
 
@@ -3426,7 +3894,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_15",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_15",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::15",
               "platformFilters" : [
 
@@ -3435,7 +3903,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_16",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_16",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::16",
               "platformFilters" : [
 
@@ -3444,7 +3912,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_17",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_17",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::17",
               "platformFilters" : [
 
@@ -3453,7 +3921,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_18",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_18",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::18",
               "platformFilters" : [
 
@@ -3462,7 +3930,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_19",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_19",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::19",
               "platformFilters" : [
 
@@ -3471,7 +3939,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_20",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_20",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::20",
               "platformFilters" : [
 
@@ -3480,7 +3948,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_21",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_21",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::21",
               "platformFilters" : [
 
@@ -3489,7 +3957,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_22",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_22",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::22",
               "platformFilters" : [
 
@@ -3498,7 +3966,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_23",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_23",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::23",
               "platformFilters" : [
 
@@ -3507,7 +3975,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_24",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_24",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::24",
               "platformFilters" : [
 
@@ -3516,7 +3984,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_25",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_25",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::25",
               "platformFilters" : [
 
@@ -3525,7 +3993,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_26",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_26",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::26",
               "platformFilters" : [
 
@@ -3534,7 +4002,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_27",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_27",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::27",
               "platformFilters" : [
 
@@ -3543,7 +4011,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_28",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_28",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::28",
               "platformFilters" : [
 
@@ -3552,7 +4020,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_29",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_29",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::29",
               "platformFilters" : [
 
@@ -3561,7 +4029,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_30",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_30",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::30",
               "platformFilters" : [
 
@@ -3570,7 +4038,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_31",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_31",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::31",
               "platformFilters" : [
 
@@ -3579,7 +4047,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_32",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_32",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::32",
               "platformFilters" : [
 
@@ -3588,7 +4056,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_33",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_33",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::33",
               "platformFilters" : [
 
@@ -3597,7 +4065,7 @@
             },
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_9::REF_34",
+              "fileReference" : "PACKAGE:movie-maker::MAINGROUP::REF_11::REF_34",
               "guid" : "PACKAGE-TARGET:MovieCore-3DD4A31129FA6792-dynamic::BUILDPHASE_0::34",
               "platformFilters" : [
 
@@ -3628,7 +4096,7 @@
       "productTypeIdentifier" : "com.apple.product-type.library.dynamic",
       "type" : "standard"
     },
-    "signature" : "da322c90ff62ac4b7ada7ed54fc53af3b25fd43644635fc5ebfaf32f6dcc550a",
+    "signature" : "1427afa67442ea13aef623459adf9e4fd624597a47479e468c66340765645771",
     "type" : "target"
   },
   {
@@ -3689,11 +4157,11 @@
       "projectIsPackage" : "true",
       "projectName" : "Aggregate",
       "targets" : [
-        "f3545e9ea71f625d8a21b365fc03983511a43a36b34c09fcb291e63e20777e27",
-        "88706bccce57214584a3ff4df9521ed4d171a41a5ea44903acea152bbaec7410"
+        "0b90ac0af9b0f039e937b347671ee18f7ece85d27e27d821f600dabbb173858d",
+        "7dc3ad57d719a30886bcb3508984f2f3bfa916ca7ac88968c3b3e14620c78e03"
       ]
     },
-    "signature" : "8a5cbdb69659f56f4d0fd6933a1676d6369b21c6e6a5cae2df264dcc444e4386",
+    "signature" : "d52fb5d25217ee25c17b3bc52ec98ae06899b76e03b4ca0483729c7a13124092",
     "type" : "project"
   },
   {
@@ -3741,6 +4209,12 @@
           ]
         },
         {
+          "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia",
+          "platformFilters" : [
+
+          ]
+        },
+        {
           "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks",
           "platformFilters" : [
 
@@ -3763,7 +4237,7 @@
       "name" : "AllIncludingTests",
       "type" : "aggregate"
     },
-    "signature" : "f3545e9ea71f625d8a21b365fc03983511a43a36b34c09fcb291e63e20777e27",
+    "signature" : "0b90ac0af9b0f039e937b347671ee18f7ece85d27e27d821f600dabbb173858d",
     "type" : "target"
   },
   {
@@ -3811,6 +4285,12 @@
           ]
         },
         {
+          "guid" : "PACKAGE-PRODUCT:movie-maker_ReadmeMedia.ReadmeMedia",
+          "platformFilters" : [
+
+          ]
+        },
+        {
           "guid" : "PACKAGE-PRODUCT:movie-maker_NewChecks.NewChecks",
           "platformFilters" : [
 
@@ -3833,7 +4313,7 @@
       "name" : "AllExcludingTests",
       "type" : "aggregate"
     },
-    "signature" : "88706bccce57214584a3ff4df9521ed4d171a41a5ea44903acea152bbaec7410",
+    "signature" : "7dc3ad57d719a30886bcb3508984f2f3bfa916ca7ac88968c3b3e14620c78e03",
     "type" : "target"
   }
 ]

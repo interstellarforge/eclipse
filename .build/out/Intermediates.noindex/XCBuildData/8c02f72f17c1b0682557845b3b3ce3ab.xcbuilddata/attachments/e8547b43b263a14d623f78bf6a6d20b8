@@ -1,0 +1,31 @@
+{
+  "" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary.dia",
+    "emit-module-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary-emit-module.dia",
+    "pch" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/ReadmeMedia/Assistant.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/Assistant.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/Assistant.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/Assistant.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/ReadmeMedia/AssistantRender.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/AssistantRender.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/AssistantRender.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/AssistantRender.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/ReadmeMedia/Footage.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/Footage.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/Footage.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/Footage.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/ReadmeMedia/main.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/main.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/main.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/main.o"
+  }
+}

@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'MovieMaker-product' in project 'MovieMaker'
-➜ Explicit dependency on target 'MovieCore' in project 'MovieMaker'
-Target 'MovieCore' in project 'MovieMaker' (no dependencies)

@@ -1,0 +1,11 @@
+{
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/NewChecks/AskGhostChecks.swift" : {
+    "abi-baseline-json" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/NewChecks-p.build/Objects-normal/arm64/NewChecks.abi.json",
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/NewChecks-p.build/Objects-normal/arm64/NewChecks-primary.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/NewChecks-p.build/Objects-normal/arm64/NewChecks-primary.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/NewChecks-p.build/Objects-normal/arm64/NewChecks-primary.dia",
+    "swiftdoc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/NewChecks-p.build/Objects-normal/arm64/NewChecks.swiftdoc",
+    "swiftmodule" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/NewChecks-p.build/Objects-normal/arm64/NewChecks.swiftmodule",
+    "swiftsourceinfo" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/NewChecks-p.build/Objects-normal/arm64/NewChecks.swiftsourceinfo"
+  }
+}

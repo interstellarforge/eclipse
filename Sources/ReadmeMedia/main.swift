@@ -114,4 +114,4 @@ func gif(from video: URL, to url: URL, width: Int = 480, fps: Int = 10) async th
     }
 }
 
-try await main()
+if CommandLine.arguments.count > 2, CommandLine.arguments[2] == "assistant-render" { try await renderAssistant(out: out) } else if CommandLine.arguments.count > 3, CommandLine.arguments[2] == "assistant" { try await recordAssistant(out: out, prompt: CommandLine.arguments[3]) } else { try await main() }

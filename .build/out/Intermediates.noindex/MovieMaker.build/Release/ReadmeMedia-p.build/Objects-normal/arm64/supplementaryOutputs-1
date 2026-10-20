@@ -1,0 +1,11 @@
+{
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/ReadmeMedia/Assistant.swift" : {
+    "abi-baseline-json" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia.abi.json",
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia-primary.dia",
+    "swiftdoc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia.swiftdoc",
+    "swiftmodule" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia.swiftmodule",
+    "swiftsourceinfo" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/ReadmeMedia-p.build/Objects-normal/arm64/ReadmeMedia.swiftsourceinfo"
+  }
+}

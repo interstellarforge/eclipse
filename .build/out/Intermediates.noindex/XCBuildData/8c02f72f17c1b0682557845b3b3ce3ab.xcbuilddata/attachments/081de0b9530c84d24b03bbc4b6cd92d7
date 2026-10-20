@@ -1,0 +1,186 @@
+{
+  "" : {
+    "const-values" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary.swiftconstvalues",
+    "dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary.d",
+    "diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary.dia",
+    "emit-module-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary-emit-module.dia",
+    "pch" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MovieCore-primary.swiftdeps"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Agents.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Agents.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Agents.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Agents.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Analysis.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Analysis.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Analysis.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Analysis.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/AssetInfo.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/AssetInfo.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/AssetInfo.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/AssetInfo.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/AudioTools.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/AudioTools.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/AudioTools.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/AudioTools.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/AutoMovie.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/AutoMovie.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/AutoMovie.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/AutoMovie.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/ClaudeRunner.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/ClaudeRunner.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/ClaudeRunner.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/ClaudeRunner.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Commands.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Commands.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Commands.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Commands.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Compositor.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Compositor.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Compositor.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Compositor.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/EditPlan.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/EditPlan.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/EditPlan.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/EditPlan.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/EffectRenderer.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/EffectRenderer.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/EffectRenderer.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/EffectRenderer.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Export.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Export.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Export.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Export.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/GeneratorRenderer.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/GeneratorRenderer.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/GeneratorRenderer.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/GeneratorRenderer.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/LookRenderer.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/LookRenderer.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/LookRenderer.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/LookRenderer.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/MCP.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MCP.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MCP.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MCP.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/MCPTools.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MCPTools.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MCPTools.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MCPTools.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/MatchCuts.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MatchCuts.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MatchCuts.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MatchCuts.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Media.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Media.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Media.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Media.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Model.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Model.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Model.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Model.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/MusicLibrary.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MusicLibrary.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MusicLibrary.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/MusicLibrary.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/OnlineLibrary.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/OnlineLibrary.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/OnlineLibrary.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/OnlineLibrary.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Operations.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Operations.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Operations.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Operations.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Persistence.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Persistence.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Persistence.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Persistence.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Privacy.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Privacy.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Privacy.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Privacy.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/ScriptMode.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/ScriptMode.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/ScriptMode.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/ScriptMode.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/SkillContent.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/SkillContent.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/SkillContent.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/SkillContent.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Skills.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Skills.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Skills.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Skills.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/SmartReframe.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/SmartReframe.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/SmartReframe.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/SmartReframe.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Snap.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Snap.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Snap.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Snap.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/SoundEffects.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/SoundEffects.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/SoundEffects.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/SoundEffects.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Stills.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Stills.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Stills.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Stills.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Templates.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Templates.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Templates.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Templates.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/TransitionRenderer.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/TransitionRenderer.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/TransitionRenderer.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/TransitionRenderer.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Treatments.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Treatments.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Treatments.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Treatments.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Vision.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Vision.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Vision.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Vision.o"
+  },
+  "/Users/kees/Documents/prive/repos/movie-maker/Sources/MovieCore/Workspace.swift" : {
+    "index-unit-output-path" : "/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Workspace.o",
+    "llvm-bc" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Workspace.bc",
+    "object" : "/Users/kees/Documents/prive/repos/movie-maker/.build/out/Intermediates.noindex/MovieMaker.build/Release/MovieCore-t.build/Objects-normal/arm64/Workspace.o"
+  }
+}
