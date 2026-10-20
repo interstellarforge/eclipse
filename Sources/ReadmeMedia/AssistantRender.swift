@@ -74,7 +74,7 @@ func renderAssistant(out: URL) async throws {
                 y += h + 12
             case "text":
                 let shown = String(s.text.prefix(Int(Double(s.text.count) * min(1, (time - it.appear) / max(it.typing, 0.1)))))
-                let a = attr(shown, size: 13, color: light)
+                let a = attr(shown.replacingOccurrences(of: "**", with: ""), size: 13, color: light)
                 let h = ceil(a.boundingRect(with: NSSize(width: inner, height: 4000), options: [.usesLineFragmentOrigin]).height) + 4
                 blocks.append((NSRect(x: 0, y: y, width: inner, height: h), { a.draw(with: NSRect(x: 38, y: 0, width: inner, height: h), options: [.usesLineFragmentOrigin]) }))
                 y += h + 12

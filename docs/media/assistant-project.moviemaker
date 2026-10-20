@@ -1,0 +1,520 @@
+{
+  "assets" : [
+    {
+      "duration" : 6000,
+      "favorite" : false,
+      "hasAudio" : false,
+      "hasVideo" : true,
+      "id" : "D3E9CCB7-6AD6-42CE-8C2E-0EB70B829DF8",
+      "isStill" : false,
+      "url" : "file:\/\/\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/docs\/media\/footage\/sunset.mp4"
+    },
+    {
+      "duration" : 6000,
+      "favorite" : false,
+      "hasAudio" : false,
+      "hasVideo" : true,
+      "id" : "9A3220C9-68BA-4E0A-893A-E4D27628CE20",
+      "isStill" : false,
+      "url" : "file:\/\/\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/docs\/media\/footage\/ocean.mp4"
+    },
+    {
+      "duration" : 6000,
+      "favorite" : false,
+      "hasAudio" : false,
+      "hasVideo" : true,
+      "id" : "9A4ECCB4-B202-42F9-BBC6-614917AF1DF1",
+      "isStill" : false,
+      "url" : "file:\/\/\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/docs\/media\/footage\/city.mp4"
+    },
+    {
+      "duration" : 6000,
+      "favorite" : false,
+      "hasAudio" : false,
+      "hasVideo" : true,
+      "id" : "DF9D9CE9-104A-462B-A7C0-F12C7D310760",
+      "isStill" : false,
+      "url" : "file:\/\/\/Users\/kees\/Documents\/prive\/repos\/movie-maker\/docs\/media\/footage\/forest.mp4"
+    },
+    {
+      "duration" : 96000,
+      "favorite" : false,
+      "hasAudio" : true,
+      "hasVideo" : false,
+      "id" : "52F1CDA5-A4E6-4700-92A7-6E8CE9A206DF",
+      "isStill" : false,
+      "url" : "file:\/\/\/Users\/kees\/Library\/Application%20Support\/MovieMaker\/Music\/v2\/Calm%20Ambient.wav"
+    }
+  ],
+  "fps" : 30,
+  "height" : 1080,
+  "tracks" : [
+    {
+      "clips" : [
+        {
+          "duration" : 5500,
+          "effects" : [
+
+          ],
+          "fadeIn" : 1000,
+          "fadeOut" : 1200,
+          "generator" : "fireflies",
+          "generatorAmount" : 0.3,
+          "id" : "FD842364-1FE2-4151-8D5C-832377976B53",
+          "keyframes" : [
+
+          ],
+          "look" : {
+            "blur" : 0,
+            "brightness" : 0,
+            "contrast" : 1,
+            "cropBottom" : 0,
+            "cropLeft" : 0,
+            "cropRight" : 0,
+            "cropTop" : 0,
+            "fade" : 0,
+            "flipX" : false,
+            "flipY" : false,
+            "rotation" : 0,
+            "saturation" : 1,
+            "sepia" : 0,
+            "sharpen" : 0,
+            "splitAmount" : 0,
+            "vignette" : 0,
+            "warmth" : 0
+          },
+          "muted" : false,
+          "offsetX" : 0,
+          "offsetY" : 0,
+          "opacity" : 1,
+          "scale" : 1,
+          "sourceIn" : 0,
+          "speed" : 1,
+          "start" : 18500,
+          "style" : {
+            "align" : 1,
+            "animation" : "none",
+            "animationMs" : 500,
+            "bold" : true,
+            "box" : false,
+            "colorHex" : "FFFFFF",
+            "glow" : false,
+            "outline" : false,
+            "shadow" : true,
+            "size" : 0.08,
+            "tracking" : 0,
+            "uppercase" : false,
+            "x" : 0.5,
+            "y" : 0.15
+          },
+          "volume" : 1
+        }
+      ],
+      "duck" : false,
+      "duckLevel" : 0.3,
+      "hidden" : false,
+      "id" : "18443D96-E16F-41A3-80C8-1DC6CF691764",
+      "kind" : "video",
+      "locked" : false,
+      "muted" : false
+    },
+    {
+      "clips" : [
+        {
+          "assetID" : "D3E9CCB7-6AD6-42CE-8C2E-0EB70B829DF8",
+          "duration" : 6749,
+          "effects" : [
+
+          ],
+          "fadeIn" : 600,
+          "fadeOut" : 0,
+          "generatorAmount" : 0.5,
+          "id" : "E0FB0938-AD7E-45F5-9092-B605D043EC06",
+          "keyframes" : [
+
+          ],
+          "look" : {
+            "blur" : 0,
+            "brightness" : 0.02,
+            "contrast" : 1.05,
+            "cropBottom" : 0,
+            "cropLeft" : 0,
+            "cropRight" : 0,
+            "cropTop" : 0,
+            "fade" : 0,
+            "flipX" : false,
+            "flipY" : false,
+            "rotation" : 0,
+            "saturation" : 1.15,
+            "sepia" : 0.2,
+            "sharpen" : 0,
+            "splitAmount" : 0,
+            "vignette" : 0.2,
+            "warmth" : 0
+          },
+          "muted" : false,
+          "offsetX" : 0,
+          "offsetY" : 0,
+          "opacity" : 1,
+          "scale" : 1,
+          "sourceIn" : 0,
+          "speed" : 0.889,
+          "start" : 0,
+          "style" : {
+            "align" : 1,
+            "animation" : "none",
+            "animationMs" : 500,
+            "bold" : true,
+            "box" : false,
+            "colorHex" : "FFFFFF",
+            "glow" : false,
+            "outline" : false,
+            "shadow" : true,
+            "size" : 0.08,
+            "tracking" : 0,
+            "uppercase" : false,
+            "x" : 0.5,
+            "y" : 0.15
+          },
+          "volume" : 0.3
+        },
+        {
+          "assetID" : "9A3220C9-68BA-4E0A-893A-E4D27628CE20",
+          "duration" : 6749,
+          "effects" : [
+
+          ],
+          "fadeIn" : 0,
+          "fadeOut" : 0,
+          "generatorAmount" : 0.5,
+          "id" : "A2D12A4E-47EA-40D3-A87E-24410C39114F",
+          "keyframes" : [
+
+          ],
+          "look" : {
+            "blur" : 0,
+            "brightness" : 0,
+            "contrast" : 1.05,
+            "cropBottom" : 0,
+            "cropLeft" : 0,
+            "cropRight" : 0,
+            "cropTop" : 0,
+            "fade" : 0,
+            "flipX" : false,
+            "flipY" : false,
+            "rotation" : 0,
+            "saturation" : 0.9,
+            "sepia" : 0,
+            "sharpen" : 0,
+            "splitAmount" : 0,
+            "vignette" : 0.25,
+            "warmth" : 0
+          },
+          "muted" : false,
+          "offsetX" : 0,
+          "offsetY" : 0,
+          "opacity" : 1,
+          "scale" : 1,
+          "sourceIn" : 0,
+          "speed" : 0.889,
+          "start" : 5749,
+          "style" : {
+            "align" : 1,
+            "animation" : "none",
+            "animationMs" : 500,
+            "bold" : true,
+            "box" : false,
+            "colorHex" : "FFFFFF",
+            "glow" : false,
+            "outline" : false,
+            "shadow" : true,
+            "size" : 0.08,
+            "tracking" : 0,
+            "uppercase" : false,
+            "x" : 0.5,
+            "y" : 0.15
+          },
+          "volume" : 0.3
+        },
+        {
+          "assetID" : "9A4ECCB4-B202-42F9-BBC6-614917AF1DF1",
+          "duration" : 6749,
+          "effects" : [
+
+          ],
+          "fadeIn" : 0,
+          "fadeOut" : 0,
+          "generatorAmount" : 0.5,
+          "id" : "28549BB5-B681-4B8C-9E89-9BFC95FC8D94",
+          "keyframes" : [
+
+          ],
+          "look" : {
+            "blur" : 0,
+            "brightness" : 0.03,
+            "contrast" : 1.1,
+            "cropBottom" : 0,
+            "cropLeft" : 0,
+            "cropRight" : 0,
+            "cropTop" : 0,
+            "fade" : 0,
+            "flipX" : false,
+            "flipY" : false,
+            "rotation" : 0,
+            "saturation" : 1.05,
+            "sepia" : 0.1,
+            "sharpen" : 0,
+            "splitAmount" : 0,
+            "vignette" : 0.3,
+            "warmth" : 0
+          },
+          "muted" : false,
+          "offsetX" : 0,
+          "offsetY" : 0,
+          "opacity" : 1,
+          "scale" : 1,
+          "sourceIn" : 0,
+          "speed" : 0.889,
+          "start" : 12498,
+          "style" : {
+            "align" : 1,
+            "animation" : "none",
+            "animationMs" : 500,
+            "bold" : true,
+            "box" : false,
+            "colorHex" : "FFFFFF",
+            "glow" : false,
+            "outline" : false,
+            "shadow" : true,
+            "size" : 0.08,
+            "tracking" : 0,
+            "uppercase" : false,
+            "x" : 0.5,
+            "y" : 0.15
+          },
+          "volume" : 0.3
+        },
+        {
+          "assetID" : "DF9D9CE9-104A-462B-A7C0-F12C7D310760",
+          "duration" : 6749,
+          "effects" : [
+
+          ],
+          "fadeIn" : 0,
+          "fadeOut" : 900,
+          "generatorAmount" : 0.5,
+          "id" : "1ED20DA8-5F89-4E8A-90F2-D0B4710F9576",
+          "keyframes" : [
+
+          ],
+          "look" : {
+            "blur" : 0,
+            "brightness" : 0.03,
+            "contrast" : 0.98,
+            "cropBottom" : 0,
+            "cropLeft" : 0,
+            "cropRight" : 0,
+            "cropTop" : 0,
+            "fade" : 0,
+            "flipX" : false,
+            "flipY" : false,
+            "rotation" : 0,
+            "saturation" : 1.1,
+            "sepia" : 0,
+            "sharpen" : 0,
+            "splitAmount" : 0,
+            "vignette" : 0.1,
+            "warmth" : 0
+          },
+          "muted" : false,
+          "offsetX" : 0,
+          "offsetY" : 0,
+          "opacity" : 1,
+          "scale" : 1,
+          "sourceIn" : 0,
+          "speed" : 0.889,
+          "start" : 18247,
+          "style" : {
+            "align" : 1,
+            "animation" : "none",
+            "animationMs" : 500,
+            "bold" : true,
+            "box" : false,
+            "colorHex" : "FFFFFF",
+            "glow" : false,
+            "outline" : false,
+            "shadow" : true,
+            "size" : 0.08,
+            "tracking" : 0,
+            "uppercase" : false,
+            "x" : 0.5,
+            "y" : 0.15
+          },
+          "volume" : 0.3
+        }
+      ],
+      "duck" : false,
+      "duckLevel" : 0.3,
+      "hidden" : false,
+      "id" : "B98C2812-64ED-414A-B782-F2E156B1DE60",
+      "kind" : "video",
+      "locked" : false,
+      "muted" : false
+    },
+    {
+      "clips" : [
+        {
+          "duration" : 3400,
+          "effects" : [
+
+          ],
+          "fadeIn" : 800,
+          "fadeOut" : 800,
+          "generatorAmount" : 0.5,
+          "id" : "C8B96252-3667-498C-835D-FB1C70A07FC3",
+          "keyframes" : [
+
+          ],
+          "look" : {
+            "blur" : 0,
+            "brightness" : 0,
+            "contrast" : 1,
+            "cropBottom" : 0,
+            "cropLeft" : 0,
+            "cropRight" : 0,
+            "cropTop" : 0,
+            "fade" : 0,
+            "flipX" : false,
+            "flipY" : false,
+            "rotation" : 0,
+            "saturation" : 1,
+            "sepia" : 0,
+            "sharpen" : 0,
+            "splitAmount" : 0,
+            "vignette" : 0,
+            "warmth" : 0
+          },
+          "muted" : false,
+          "offsetX" : 0,
+          "offsetY" : 0,
+          "opacity" : 1,
+          "scale" : 1,
+          "sourceIn" : 0,
+          "speed" : 1,
+          "start" : 600,
+          "style" : {
+            "align" : 1,
+            "animation" : "none",
+            "animationMs" : 500,
+            "bold" : true,
+            "box" : false,
+            "colorHex" : "FFFFFF",
+            "glow" : false,
+            "outline" : false,
+            "shadow" : true,
+            "size" : 0.12,
+            "tracking" : 0,
+            "uppercase" : false,
+            "x" : 0.5,
+            "y" : 0.5
+          },
+          "text" : "Four Quiet Places",
+          "volume" : 1
+        }
+      ],
+      "duck" : false,
+      "duckLevel" : 0.3,
+      "hidden" : false,
+      "id" : "1B28C78E-103A-409D-A544-98E217488C34",
+      "kind" : "text",
+      "locked" : false,
+      "muted" : false
+    },
+    {
+      "clips" : [
+        {
+          "assetID" : "52F1CDA5-A4E6-4700-92A7-6E8CE9A206DF",
+          "duration" : 24996,
+          "effects" : [
+
+          ],
+          "fadeIn" : 500,
+          "fadeOut" : 2500,
+          "generatorAmount" : 0.5,
+          "id" : "9B793C1F-15D8-4757-BBA9-BE09DF38EFF4",
+          "keyframes" : [
+
+          ],
+          "look" : {
+            "blur" : 0,
+            "brightness" : 0,
+            "contrast" : 1,
+            "cropBottom" : 0,
+            "cropLeft" : 0,
+            "cropRight" : 0,
+            "cropTop" : 0,
+            "fade" : 0,
+            "flipX" : false,
+            "flipY" : false,
+            "rotation" : 0,
+            "saturation" : 1,
+            "sepia" : 0,
+            "sharpen" : 0,
+            "splitAmount" : 0,
+            "vignette" : 0,
+            "warmth" : 0
+          },
+          "muted" : false,
+          "offsetX" : 0,
+          "offsetY" : 0,
+          "opacity" : 1,
+          "scale" : 1,
+          "sourceIn" : 0,
+          "speed" : 1,
+          "start" : 0,
+          "style" : {
+            "align" : 1,
+            "animation" : "none",
+            "animationMs" : 500,
+            "bold" : true,
+            "box" : false,
+            "colorHex" : "FFFFFF",
+            "glow" : false,
+            "outline" : false,
+            "shadow" : true,
+            "size" : 0.08,
+            "tracking" : 0,
+            "uppercase" : false,
+            "x" : 0.5,
+            "y" : 0.15
+          },
+          "volume" : 0.5
+        }
+      ],
+      "duck" : false,
+      "duckLevel" : 0.3,
+      "hidden" : false,
+      "id" : "9F4ED949-E252-4664-B237-465F32CA2BFF",
+      "kind" : "audio",
+      "locked" : false,
+      "muted" : false
+    }
+  ],
+  "transitions" : [
+    {
+      "duration" : 1000,
+      "fromClip" : "E0FB0938-AD7E-45F5-9092-B605D043EC06",
+      "id" : "3E36ACE3-F3E0-4886-A113-38992142E6BB",
+      "toClip" : "A2D12A4E-47EA-40D3-A87E-24410C39114F",
+      "type" : "crossfade"
+    },
+    {
+      "duration" : 1000,
+      "fromClip" : "28549BB5-B681-4B8C-9E89-9BFC95FC8D94",
+      "id" : "0A9FF90E-3803-4F83-936B-D59E6B4BFC5D",
+      "toClip" : "1ED20DA8-5F89-4E8A-90F2-D0B4710F9576",
+      "type" : "blurFade"
+    }
+  ],
+  "width" : 1920
+}

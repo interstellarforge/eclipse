@@ -15,7 +15,7 @@ func recordAssistant(out: URL, prompt: String) async throws {
     let editor = Editor()
     try editor.apply(.setFormat(width: 1280, height: 720, fps: 30))
     for s in Scene.allCases { try editor.apply(.addAsset(try await Asset.load(url: footage.appendingPathComponent("\(s.rawValue).mp4")))) }
-    let host = MCPHost(importMedia: { try await Asset.load(url: $0) }, playhead: { 0 })
+    let host = MCPHost(importMedia: { url in if let a = editor.project.assets.first(where: { $0.url == url }) { return a }; let a = try await Asset.load(url: url); try editor.apply(.addAsset(a)); return a }, playhead: { 0 })
     let token = "readme-demo"
     let server = MCPServer(editor: editor, host: host, token: token)
     try await server.start()
@@ -28,8 +28,8 @@ func recordAssistant(out: URL, prompt: String) async throws {
         switch ev {
         case .textDelta(let d): text += d
         case .toolUse(let id, let name, let input):
-            flush(); names[id] = name
-            steps.append(Step(kind: "tool", text: input, tool: name))
+            flush(); names[id] = name.replacingOccurrences(of: "mcp__movie-maker__", with: "")
+            steps.append(Step(kind: "tool", text: input, tool: name.replacingOccurrences(of: "mcp__movie-maker__", with: "")))
         case .toolResult(let id, let isError):
             if var last = steps.last(where: { $0.kind == "tool" && $0.tool == names[id] && $0.frame == nil && $0.error == nil }), let i = steps.lastIndex(where: { $0.kind == "tool" && $0.tool == last.tool && $0.error == nil }) {
                 last.error = isError

@@ -4,7 +4,9 @@
 
 <p align="center">
   <b>Ideas. Motion. Stories. Beyond.</b><br>
-  A free, local AI video editor for macOS and Android: a real multi-track editor you can also hand to an assistant.
+  <b>An AI video editor where the assistant does the editing.</b><br>
+  Tell it what film you want. It watches your clips, plans the cut, and builds the real, editable project.<br>
+  Free and local, for macOS and Android.
 </p>
 
 <p align="center">
@@ -17,12 +19,60 @@
 
 ---
 
+## The AI Assistant: the heart of Eclipse
+
+The assistant is the main way to use Eclipse. You describe the film in plain words, and it does the editing: it watches your footage, decides which moments matter, cuts, grades, adds titles, joins, effects, overlays and music, then reviews its own work and tells you what it chose and why. Everything lands on the normal timeline, so you can undo any step or take over at any point.
+
+<p align="center">
+  <img src="docs/media/assistant-demo.gif" alt="The assistant building a film from four clips" width="860"><br>
+  <sub>A real, unedited session (<a href="docs/media/assistant-demo.mp4">full-quality video</a>): one request, four clips, a finished 25-second film. The tool rows are the assistant's actual calls; the preview shows what it built.</sub>
+</p>
+
+> **Request:** "Make a 25 second film from my four clips (sunset, ocean, city, forest). Open with a title, give each scene its own colour look, join them with two different transitions, add a gentle overlay on the last scene and a soft music bed. Keep it calm and tasteful."
+>
+> **What happened:** the assistant read its director skills, asked the editor for creative treatments, *watched* each clip, planned a "slow burn" film, and built it in one edit (its first attempt was rejected, so it revised the plan). Then it watched the timeline to check the result and replied with a summary of every choice: a title, a different grade per scene, a crossfade and a blur-fade (it kept one hard cut on purpose), fireflies over the last scene and a music bed. The session cost about 11 US cents of Claude usage.
+>
+> [Watch the film it made](docs/media/assistant-result.mp4) · [Read the full session](docs/media/assistant-session.json)
+
+<p align="center">
+  <img src="docs/screenshots/assistant-ask.png" width="31%" alt="Ask">
+  <img src="docs/screenshots/assistant-working.png" width="31%" alt="Working: tool calls as it plans and builds">
+  <img src="docs/screenshots/assistant-done.png" width="31%" alt="Done: a summary of every choice">
+</p>
+
+### Why it is different from a "make me a video" button
+
+- **It edits the real project.** There is no render-then-hope step. The assistant calls the same 70+ editing tools the interface uses (add and trim clips, transitions, looks, effects, overlays, titles, keyframes, speed, music, export), so the result is a normal Eclipse project you can keep editing by hand.
+- **It looks at your footage.** Tools to inspect a clip, watch a clip as frames, watch the finished timeline and grab a frame let it judge what is actually in the shots instead of guessing from file names.
+- **It directs, not just assembles.** 18 built-in director skills (pacing, beat-synced cuts, trailers, reels, documentary, wedding and more) are loaded when the job calls for them.
+- **It avoids lazy defaults.** A creativity guard stops the usual crutches (film grain, cinema bars and glow on every edit, the same arc every time). The assistant has to pick a specific treatment and stay inside a restraint budget, and the editor refuses plans that stack the usual tricks.
+- **It asks instead of guessing.** It can put a question to you with options, or let you watch a clip and mark *start here / end here* for the moments you want.
+- **You stay in control.** Every edit is undoable. Ghost edit lets it work on a copy of the timeline that you accept or reject.
+
+### Modes for different jobs
+
+| Mode | What it does |
+|---|---|
+| **Just ask** | One request, one finished edit. Specific changes ("add a crossfade here", "set the music to 40%") are done directly with no questions. |
+| **Guided edit** | The assistant interviews you one question at a time, then builds the film from your answers. |
+| **Script mode** (Medium, Advanced, Director) | It analyses your clips, drafts a script as beats, and waits for you to edit and approve the script before it cuts anything. |
+| **Ghost edit** | Changes a named part of a *copy* of your timeline. You compare, then accept or discard. |
+| **Suggest improvements** | Reviews your current edit and proposes concrete fixes without changing anything. |
+| **Offline mode** | Nothing from your footage goes to an AI service: the analysis tools that send pictures or audio are hidden, and the assistant gets only the start and end times you mark. `scripts/offline-watch.sh` is a read-only monitor that shows no image reached a transcript. |
+
+### Bring your own agent
+
+- **macOS:** uses the Claude Code you already have installed and signed in to (no API key handled by Eclipse). Codex and OpenCode are supported experimentally.
+- **Android:** the assistant calls the Claude API directly with your own API key, using the same tools.
+- **Workspace folders:** open a folder and the assistant can browse and analyse what is inside, with file counts and sizes, and import only what it needs.
+
 ## The idea
 
-Most video editors are either a timeline you push around by hand, or a "make me a video" button that gives you no control. Eclipse is both, on purpose:
+Most video editors are either a timeline you push around by hand, or a "make me a video" button that gives you no control. Eclipse puts an assistant in front of a complete editor, so you get the speed of one and the control of the other:
 
-- **A complete manual editor.** Multi-track timeline, trim, split, snap, keyframes, 47 transitions, 34 effects, 19 overlays, 27 title styles, 18 colour looks, music, voice-over, export.
-- **An assistant that uses the same controls you do.** Every edit, by you or by the assistant, is the same undoable command. Nothing the assistant does is hidden or locked in; you can step through it with undo, or take over mid-edit.
+- **The assistant first.** Describe the film; it does the editing (see above).
+- **A complete manual editor underneath.** Multi-track timeline, trim, split, snap, keyframes, 47 transitions, 34 effects, 19 overlays, 27 title styles, 18 colour looks, music, voice-over, export.
+- **One shared set of controls.** Every edit, by you or by the assistant, is the same undoable command. Nothing the assistant does is hidden or locked in; you can step through it with undo, or take over mid-edit.
 - **Local first.** Your footage stays on your machine. An **Offline mode** keeps clips, frames and audio away from any AI service entirely: the assistant gets only the start and end times *you* mark.
 - **Native, not a webview.** Swift (AVFoundation, Core Image) on macOS, Kotlin and Jetpack Compose (Media3) on Android. No FFmpeg, no subscription, no account.
 
@@ -30,7 +80,7 @@ Most video editors are either a timeline you push around by hand, or a "make me 
   <img src="docs/screenshots/mac-editor.jpg" alt="Eclipse on macOS: media bin, preview, timeline and the AI assistant" width="900">
 </p>
 
-## What you can do
+## What you can do by hand
 
 ### Edit
 
@@ -81,19 +131,6 @@ Lower thirds, movie titles, neon, typewriter, gold, quote, chapter cards, news b
 Plus **35 one-tap templates** (a grade, effects, joins, titles and an overlay in one go) from Blockbuster and Noir to Wedding and Reels.
 
 > The clips above are rendered by Eclipse itself from four generated sample scenes: `swift run ReadmeMedia docs/media` recreates them and their GIFs from the real editor code. Full-quality MP4s are next to each GIF in [`docs/media`](docs/media).
-
-## The assistant
-
-Open the assistant, describe what you want, and it edits the real project with the same tools you have.
-
-- **Tools, not text.** 70+ editing tools (add and trim clips, transitions, looks, effects, overlays, titles, keyframes, speed, music, export) plus tools to *look*: inspect a clip, watch the timeline, grab a frame.
-- **Skills.** 18 director skills (pacing, beat-synced cuts, trailers, reels, documentary, wedding and more) it can load when the job calls for them.
-- **Creativity guard.** A built-in rule against lazy defaults: it must not reach for film grain, cinema bars and glow on every edit, and gets a short list of treatments to choose from instead.
-- **Script mode.** Medium, Advanced and Director levels: the assistant analyses your clips, drafts a script as beats, and waits for you to edit and approve it before it cuts anything.
-- **Ask, don't guess.** It can ask you a question with options, or let you pick moments by watching a clip and marking *start here / end here*.
-- **Offline mode.** Turn it on and the analysis tools that send pictures or audio are hidden from the assistant. It only receives the time ranges you marked. `scripts/offline-watch.sh` is a read-only monitor that shows no image ever reached a transcript.
-- **Your agent.** On macOS pick Claude, Codex or OpenCode. On Android the assistant calls the Claude API directly with your own API key.
-- **Workspace folders.** Give it a folder and it can browse and analyse what's inside, with a folder-size and file-count overview.
 
 ## Eclipse for Android
 
